@@ -105,6 +105,17 @@
 		977F809B1C20FBA9002A7EC1 /* WSProgressBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 977F808A1C20FBA9002A7EC1 /* WSProgressBundle.bundle */; };
 		977F809C1C20FBA9002A7EC1 /* WSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F808C1C20FBA9002A7EC1 /* WSProgressHUD.m */; };
 		977F809E1C20FBDF002A7EC1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 977F809D1C20FBDF002A7EC1 /* libsqlite3.tbd */; };
+		977F80A01C20FDB5002A7EC1 /* Itemslist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 977F809F1C20FDB5002A7EC1 /* Itemslist.plist */; };
+		977F80A71C20FE2B002A7EC1 /* FMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80A61C20FE2B002A7EC1 /* FMBaseViewController.m */; };
+		977F80AB1C20FE5F002A7EC1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80A91C20FE5F002A7EC1 /* HomeViewController.m */; };
+		977F80AC1C20FE5F002A7EC1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F80AA1C20FE5F002A7EC1 /* HomeViewController.xib */; };
+		977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80B11C20FEA5002A7EC1 /* DiscoverViewController.m */; };
+		977F80B41C20FEA5002A7EC1 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F80B21C20FEA5002A7EC1 /* DiscoverViewController.xib */; };
+		977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80B61C20FEC8002A7EC1 /* CommunityViewController.m */; };
+		977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80B91C20FEF1002A7EC1 /* SettingViewController.m */; };
+		977F80BC1C20FEF1002A7EC1 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F80BA1C20FEF1002A7EC1 /* SettingViewController.xib */; };
+		977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80BE1C20FF20002A7EC1 /* TabbarItem.m */; };
+		977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80C11C20FF40002A7EC1 /* FMTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -242,6 +253,24 @@
 		977F808B1C20FBA9002A7EC1 /* WSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProgressHUD.h; sourceTree = "<group>"; };
 		977F808C1C20FBA9002A7EC1 /* WSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProgressHUD.m; sourceTree = "<group>"; };
 		977F809D1C20FBDF002A7EC1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		977F809F1C20FDB5002A7EC1 /* Itemslist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Itemslist.plist; sourceTree = "<group>"; };
+		977F80A51C20FE2B002A7EC1 /* FMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBaseViewController.h; sourceTree = "<group>"; };
+		977F80A61C20FE2B002A7EC1 /* FMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseViewController.m; sourceTree = "<group>"; };
+		977F80A81C20FE5F002A7EC1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		977F80A91C20FE5F002A7EC1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		977F80AA1C20FE5F002A7EC1 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		977F80B01C20FEA5002A7EC1 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		977F80B11C20FEA5002A7EC1 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		977F80B21C20FEA5002A7EC1 /* DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverViewController.xib; sourceTree = "<group>"; };
+		977F80B51C20FEC8002A7EC1 /* CommunityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityViewController.h; sourceTree = "<group>"; };
+		977F80B61C20FEC8002A7EC1 /* CommunityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityViewController.m; sourceTree = "<group>"; };
+		977F80B81C20FEF1002A7EC1 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		977F80B91C20FEF1002A7EC1 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		977F80BA1C20FEF1002A7EC1 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		977F80BD1C20FF20002A7EC1 /* TabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarItem.h; sourceTree = "<group>"; };
+		977F80BE1C20FF20002A7EC1 /* TabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarItem.m; sourceTree = "<group>"; };
+		977F80C01C20FF40002A7EC1 /* FMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarViewController.h; sourceTree = "<group>"; };
+		977F80C11C20FF40002A7EC1 /* FMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarViewController.m; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		E876286C586B46F44F5E159A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,6 +319,7 @@
 		975D6D251C17D2420042533C /* SoulFM */ = {
 			isa = PBXGroup;
 			children = (
+				977F80A11C20FDF9002A7EC1 /* Root */,
 				977F7FC11C20F91F002A7EC1 /* 第三方 */,
 				977F7FBD1C20F62E002A7EC1 /* 首页 */,
 				977F7FAA1C20F5C7002A7EC1 /* 发现 */,
@@ -297,7 +327,6 @@
 				977F7FAC1C20F5C7002A7EC1 /* 其他 */,
 				977F7FB01C20F5C7002A7EC1 /* 设置 */,
 				977F7FB41C20F5C7002A7EC1 /* 社区 */,
-				977F7FB81C20F5C7002A7EC1 /* 首页 */,
 				977F7FBC1C20F5C7002A7EC1 /* 资源 */,
 				975D6D2C1C17D2420042533C /* ViewController.h */,
 				975D6D2D1C17D2420042533C /* ViewController.m */,
@@ -314,6 +343,7 @@
 		975D6D261C17D2420042533C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				977F809F1C20FDB5002A7EC1 /* Itemslist.plist */,
 				975D6D291C17D2420042533C /* AppDelegate.h */,
 				975D6D2A1C17D2420042533C /* AppDelegate.m */,
 				975D6D271C17D2420042533C /* main.m */,
@@ -325,6 +355,9 @@
 		977F7FAA1C20F5C7002A7EC1 /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
+				977F80AD1C20FE86002A7EC1 /* Model */,
+				977F80AE1C20FE86002A7EC1 /* View */,
+				977F80AF1C20FE86002A7EC1 /* ViewController */,
 			);
 			path = "发现";
 			sourceTree = "<group>";
@@ -394,6 +427,9 @@
 		977F7FB31C20F5C7002A7EC1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				977F80B81C20FEF1002A7EC1 /* SettingViewController.h */,
+				977F80B91C20FEF1002A7EC1 /* SettingViewController.m */,
+				977F80BA1C20FEF1002A7EC1 /* SettingViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -425,37 +461,8 @@
 		977F7FB71C20F5C7002A7EC1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		977F7FB81C20F5C7002A7EC1 /* 首页 */ = {
-			isa = PBXGroup;
-			children = (
-				977F7FB91C20F5C7002A7EC1 /* Model */,
-				977F7FBA1C20F5C7002A7EC1 /* View */,
-				977F7FBB1C20F5C7002A7EC1 /* ViewController */,
-			);
-			path = "首页";
-			sourceTree = "<group>";
-		};
-		977F7FB91C20F5C7002A7EC1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		977F7FBA1C20F5C7002A7EC1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		977F7FBB1C20F5C7002A7EC1 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
+				977F80B51C20FEC8002A7EC1 /* CommunityViewController.h */,
+				977F80B61C20FEC8002A7EC1 /* CommunityViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -519,6 +526,9 @@
 		977F7FC01C20F62E002A7EC1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				977F80A81C20FE5F002A7EC1 /* HomeViewController.h */,
+				977F80A91C20FE5F002A7EC1 /* HomeViewController.m */,
+				977F80AA1C20FE5F002A7EC1 /* HomeViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -690,6 +700,67 @@
 			path = WSProgressHUD;
 			sourceTree = "<group>";
 		};
+		977F80A11C20FDF9002A7EC1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				977F80A21C20FE13002A7EC1 /* Model */,
+				977F80A31C20FE13002A7EC1 /* View */,
+				977F80A41C20FE13002A7EC1 /* ViewController */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		977F80A21C20FE13002A7EC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977F80BD1C20FF20002A7EC1 /* TabbarItem.h */,
+				977F80BE1C20FF20002A7EC1 /* TabbarItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977F80A31C20FE13002A7EC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977F80A41C20FE13002A7EC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				977F80A51C20FE2B002A7EC1 /* FMBaseViewController.h */,
+				977F80A61C20FE2B002A7EC1 /* FMBaseViewController.m */,
+				977F80C01C20FF40002A7EC1 /* FMTabBarViewController.h */,
+				977F80C11C20FF40002A7EC1 /* FMTabBarViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		977F80AD1C20FE86002A7EC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977F80AE1C20FE86002A7EC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977F80AF1C20FE86002A7EC1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				977F80B01C20FEA5002A7EC1 /* DiscoverViewController.h */,
+				977F80B11C20FEA5002A7EC1 /* DiscoverViewController.m */,
+				977F80B21C20FEA5002A7EC1 /* DiscoverViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		ECD48C62F40E76E54B763151 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -760,6 +831,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				975D6D361C17D2420042533C /* LaunchScreen.storyboard in Resources */,
+				977F80B41C20FEA5002A7EC1 /* DiscoverViewController.xib in Resources */,
 				977F805F1C20F96E002A7EC1 /* pre.png in Resources */,
 				977F802C1C20F96E002A7EC1 /* emotion3.png in Resources */,
 				977F80391C20F96E002A7EC1 /* scene7.png in Resources */,
@@ -784,6 +856,7 @@
 				977F80581C20F96E002A7EC1 /* loadMoreGift.png in Resources */,
 				977F80571C20F96E002A7EC1 /* littlePlaying6@2x.png in Resources */,
 				977F80331C20F96E002A7EC1 /* scene1.png in Resources */,
+				977F80A01C20FDB5002A7EC1 /* Itemslist.plist in Resources */,
 				977F804E1C20F96E002A7EC1 /* littlePaused3@2x.png in Resources */,
 				977F804C1C20F96E002A7EC1 /* littlePaused1@2x.png in Resources */,
 				977F802A1C20F96E002A7EC1 /* emotion1.png in Resources */,
@@ -805,12 +878,14 @@
 				977F80321C20F96E002A7EC1 /* emotion9.png in Resources */,
 				977F80531C20F96E002A7EC1 /* littlePlaying2@2x.png in Resources */,
 				977F80561C20F96E002A7EC1 /* littlePlaying5@2x.png in Resources */,
+				977F80AC1C20FE5F002A7EC1 /* HomeViewController.xib in Resources */,
 				977F804F1C20F96E002A7EC1 /* littlePaused4@2x.png in Resources */,
 				977F804B1C20F96E002A7EC1 /* fm2mask@2x.png in Resources */,
 				977F80451C20F96E002A7EC1 /* shouyeSelectedXiong1@2x.png in Resources */,
 				977F80361C20F96E002A7EC1 /* scene4.png in Resources */,
 				977F803C1C20F96E002A7EC1 /* back.png in Resources */,
 				977F80301C20F96E002A7EC1 /* emotion7.png in Resources */,
+				977F80BC1C20FEF1002A7EC1 /* SettingViewController.xib in Resources */,
 				977F804A1C20F96E002A7EC1 /* commentPao@2x.png in Resources */,
 				977F80611C20F96E002A7EC1 /* search111.png in Resources */,
 				977F802D1C20F96E002A7EC1 /* emotion4.png in Resources */,
@@ -893,20 +968,27 @@
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
+				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
 				977F80951C20FBA9002A7EC1 /* MMRadialProgressView.m in Sources */,
 				977F80981C20FBA9002A7EC1 /* FBShimmeringView.m in Sources */,
 				977F7FE11C20F91F002A7EC1 /* JHRefreshConfig.m in Sources */,
+				977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */,
 				977F7FE01C20F91F002A7EC1 /* JHRefreshBaseView.m in Sources */,
 				977F80941C20FBA9002A7EC1 /* MMProgressHUDWindow.m in Sources */,
+				977F80A71C20FE2B002A7EC1 /* FMBaseViewController.m in Sources */,
 				977F80911C20FBA9002A7EC1 /* MMProgressHUD.m in Sources */,
 				977F7FE61C20F91F002A7EC1 /* UIView+JHExtension.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
 				977F809A1C20FBA9002A7EC1 /* WSIndefiniteAnimationView.m in Sources */,
+				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
+				977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */,
 				977F7FE31C20F91F002A7EC1 /* JHRefreshHeaderView.m in Sources */,
 				977F7FDD1C20F91F002A7EC1 /* JHRefreshAniBaseView.m in Sources */,
 				977F80991C20FBA9002A7EC1 /* MMMaterialDesignSpinner.m in Sources */,
 				977F808D1C20FBA9002A7EC1 /* MMHud.m in Sources */,
+				977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */,
+				977F80AB1C20FE5F002A7EC1 /* HomeViewController.m in Sources */,
 				977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */,
 				977F80901C20FBA9002A7EC1 /* MMProgressHUD+Class.m in Sources */,
 				977F7FE21C20F91F002A7EC1 /* JHRefreshFooterView.m in Sources */,
