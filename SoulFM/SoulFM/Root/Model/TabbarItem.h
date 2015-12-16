@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FMBaseModel.h"
 
-@interface TabbarItem : NSObject
+@interface TabbarItem : FMBaseModel
+
+@property(nonatomic,copy)NSString *selectedImageName;
+@property(nonatomic,copy)NSString *normalImageName;
+@property(nonatomic,copy)NSString *className;
+@property(nonatomic,copy)NSString *title;
+
+- (UIImage*)normalImage;
+- (UIImage*)selectedImage;
 
 @end

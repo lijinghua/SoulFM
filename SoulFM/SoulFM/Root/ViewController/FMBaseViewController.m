@@ -16,8 +16,49 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self customInitData];
+    [self customUI];
+    [self customNavigationBar];
+    [self fetchMessage];
 }
+
+#pragma mark - Custom
+- (void)customInitData{
+    
+}
+
+- (void)customUI{
+    [self.view addSubview:self.tableView];
+    [self customTableViewCell];
+}
+
+- (void)customNavigationBar{
+    
+}
+
+- (void)customTableViewCell{
+}
+
+- (UITableView*)tableView
+{
+    if (_tableView == nil) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds];
+        _tableView.dataSource = self;
+        _tableView.delegate   = self;
+    }
+    return _tableView;
+}
+
+#pragma mark - Network
+- (void)fetchMessage{
+    [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleDrop];
+    [MMProgressHUD showWithTitle:@"全力加载中"];
+    
+    FMNetEngine * netEngine = [[FMConfigration sharedInstance] configrationOfKey:[self fetchEngineConfigrationKey]];
+    [netEngine fetchNetworkData];
+    [MMProgressHUD dismissWithSuccess:@"加载结束"];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

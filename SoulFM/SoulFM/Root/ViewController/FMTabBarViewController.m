@@ -7,16 +7,45 @@
 //
 
 #import "FMTabBarViewController.h"
+#import "TabbarItem.h"
+#import "UIViewController+TabBarItem.h"
 
 @interface FMTabBarViewController ()
-
+@property(nonatomic)NSMutableArray *tabBarItemArray;
 @end
 
 @implementation FMTabBarViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [self.tabBar setBackgroundImage:[UIImage imageNamed:@"tabBg@2x.png"]];
+    [self loadTabBarItem];
+    [self createTabBarContentViewControllers];
+}
+
+
+
+
+- (void)loadTabBarItem{
+    self.tabBarItemArray = [NSMutableArray array];
+    NSString *itemFilePath = [[NSBundle mainBundle] pathForResource:@"Itemslist" ofType:@"plist"];
+    NSArray *itemArray = [NSArray arrayWithContentsOfFile:itemFilePath];
+    for (NSDictionary *dic  in itemArray) {
+        TabbarItem *tabItem = [TabbarItem itemWithDictionary:dic];
+        [self.tabBarItemArray addObject:tabItem];
+    }
+}
+
+- (void)createTabBarContentViewControllers{
+    NSMutableArray *viewControllers = [NSMutableArray array];
+    for (TabbarItem *item in self.tabBarItemArray) {
+        UIViewController *viewController = [NSClassFromString(item.className) viewContrllerTitle:item.title normalImage:item.normalImageName selectImageName:item.selectedImageName];
+        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+        [viewControllers addObject:nav];
+    }
+    self.viewControllers = viewControllers;
 }
 
 - (void)didReceiveMemoryWarning {

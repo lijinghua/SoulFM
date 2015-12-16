@@ -10,10 +10,7 @@
 		09606DFB9D79ED1FE7D941C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E876286C586B46F44F5E159A /* libPods.a */; };
 		975D6D281C17D2420042533C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D271C17D2420042533C /* main.m */; };
 		975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D2A1C17D2420042533C /* AppDelegate.m */; };
-		975D6D2E1C17D2420042533C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D2D1C17D2420042533C /* ViewController.m */; };
-		975D6D311C17D2420042533C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975D6D2F1C17D2420042533C /* Main.storyboard */; };
 		975D6D331C17D2420042533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975D6D321C17D2420042533C /* Assets.xcassets */; };
-		975D6D361C17D2420042533C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975D6D341C17D2420042533C /* LaunchScreen.storyboard */; };
 		977F7FDC1C20F91F002A7EC1 /* JHRefreshAmazingAniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC51C20F91F002A7EC1 /* JHRefreshAmazingAniView.m */; };
 		977F7FDD1C20F91F002A7EC1 /* JHRefreshAniBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC71C20F91F002A7EC1 /* JHRefreshAniBaseView.m */; };
 		977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC91C20F91F002A7EC1 /* JHRefreshCommonAniView.m */; };
@@ -116,6 +113,21 @@
 		977F80BC1C20FEF1002A7EC1 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F80BA1C20FEF1002A7EC1 /* SettingViewController.xib */; };
 		977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80BE1C20FF20002A7EC1 /* TabbarItem.m */; };
 		977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80C11C20FF40002A7EC1 /* FMTabBarViewController.m */; };
+		977F80C51C210369002A7EC1 /* FMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80C41C210369002A7EC1 /* FMBaseModel.m */; };
+		977F80C91C210490002A7EC1 /* UIViewController+TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80C81C210490002A7EC1 /* UIViewController+TabBarItem.m */; };
+		977F80D61C212FF5002A7EC1 /* xiong4.7.png in Resources */ = {isa = PBXBuildFile; fileRef = 977F80D51C212FF5002A7EC1 /* xiong4.7.png */; };
+		977F80D91C213434002A7EC1 /* FMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80D81C213434002A7EC1 /* FMUtil.m */; };
+		977F80DD1C2138FF002A7EC1 /* FMNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80DC1C2138FF002A7EC1 /* FMNetEngine.m */; };
+		977F80E01C213C5D002A7EC1 /* HomeNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80DF1C213C5D002A7EC1 /* HomeNetEngine.m */; };
+		977F80E61C213E25002A7EC1 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80E51C213E25002A7EC1 /* NSString+URLEncode.m */; };
+		977F80E91C21425B002A7EC1 /* FMConfigration.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80E81C21425B002A7EC1 /* FMConfigration.m */; };
+		977F80EF1C2148D9002A7EC1 /* Catagory.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80EE1C2148D9002A7EC1 /* Catagory.m */; };
+		977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F21C21493C002A7EC1 /* HotFMModel.m */; };
+		977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F51C21495D002A7EC1 /* DianTaiModel.m */; };
+		977F80F91C214977002A7EC1 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F81C214977002A7EC1 /* UserModel.m */; };
+		977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80FB1C214C9B002A7EC1 /* TopDianModel.m */; };
+		977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81051C2154A4002A7EC1 /* HomeModel.m */; };
+		977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81081C215802002A7EC1 /* TuiJianModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,11 +137,7 @@
 		975D6D271C17D2420042533C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		975D6D291C17D2420042533C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		975D6D2A1C17D2420042533C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		975D6D2C1C17D2420042533C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		975D6D2D1C17D2420042533C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		975D6D301C17D2420042533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		975D6D321C17D2420042533C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		975D6D351C17D2420042533C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975D6D371C17D2420042533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		977F7FC41C20F91F002A7EC1 /* JHRefreshAmazingAniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRefreshAmazingAniView.h; sourceTree = "<group>"; };
 		977F7FC51C20F91F002A7EC1 /* JHRefreshAmazingAniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRefreshAmazingAniView.m; sourceTree = "<group>"; };
@@ -271,6 +279,38 @@
 		977F80BE1C20FF20002A7EC1 /* TabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarItem.m; sourceTree = "<group>"; };
 		977F80C01C20FF40002A7EC1 /* FMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTabBarViewController.h; sourceTree = "<group>"; };
 		977F80C11C20FF40002A7EC1 /* FMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTabBarViewController.m; sourceTree = "<group>"; };
+		977F80C31C210369002A7EC1 /* FMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBaseModel.h; sourceTree = "<group>"; };
+		977F80C41C210369002A7EC1 /* FMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseModel.m; sourceTree = "<group>"; };
+		977F80C71C210490002A7EC1 /* UIViewController+TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TabBarItem.h"; sourceTree = "<group>"; };
+		977F80C81C210490002A7EC1 /* UIViewController+TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TabBarItem.m"; sourceTree = "<group>"; };
+		977F80D41C21099D002A7EC1 /* FMCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCommonDefine.h; sourceTree = "<group>"; };
+		977F80D51C212FF5002A7EC1 /* xiong4.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiong4.7.png; sourceTree = "<group>"; };
+		977F80D71C213434002A7EC1 /* FMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUtil.h; sourceTree = "<group>"; };
+		977F80D81C213434002A7EC1 /* FMUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUtil.m; sourceTree = "<group>"; };
+		977F80DB1C2138FF002A7EC1 /* FMNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNetEngine.h; sourceTree = "<group>"; };
+		977F80DC1C2138FF002A7EC1 /* FMNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMNetEngine.m; sourceTree = "<group>"; };
+		977F80DE1C213C5D002A7EC1 /* HomeNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNetEngine.h; sourceTree = "<group>"; };
+		977F80DF1C213C5D002A7EC1 /* HomeNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNetEngine.m; sourceTree = "<group>"; };
+		977F80E41C213E25002A7EC1 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		977F80E51C213E25002A7EC1 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		977F80E71C21425B002A7EC1 /* FMConfigration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMConfigration.h; sourceTree = "<group>"; };
+		977F80E81C21425B002A7EC1 /* FMConfigration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMConfigration.m; sourceTree = "<group>"; };
+		977F80ED1C2148D9002A7EC1 /* Catagory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catagory.h; sourceTree = "<group>"; };
+		977F80EE1C2148D9002A7EC1 /* Catagory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catagory.m; sourceTree = "<group>"; };
+		977F80F11C21493C002A7EC1 /* HotFMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFMModel.h; sourceTree = "<group>"; };
+		977F80F21C21493C002A7EC1 /* HotFMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFMModel.m; sourceTree = "<group>"; };
+		977F80F41C21495D002A7EC1 /* DianTaiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DianTaiModel.h; sourceTree = "<group>"; };
+		977F80F51C21495D002A7EC1 /* DianTaiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DianTaiModel.m; sourceTree = "<group>"; };
+		977F80F71C214977002A7EC1 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		977F80F81C214977002A7EC1 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		977F80FA1C214C9B002A7EC1 /* TopDianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDianModel.h; sourceTree = "<group>"; };
+		977F80FB1C214C9B002A7EC1 /* TopDianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDianModel.m; sourceTree = "<group>"; };
+		977F81021C214DE0002A7EC1 /* FMNewLession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNewLession.h; sourceTree = "<group>"; };
+		977F81031C214E24002A7EC1 /* FMNewFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNewFM.h; sourceTree = "<group>"; };
+		977F81041C2154A4002A7EC1 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		977F81051C2154A4002A7EC1 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		977F81071C215802002A7EC1 /* TuiJianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianModel.h; sourceTree = "<group>"; };
+		977F81081C215802002A7EC1 /* TuiJianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianModel.m; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		E876286C586B46F44F5E159A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -319,6 +359,8 @@
 		975D6D251C17D2420042533C /* SoulFM */ = {
 			isa = PBXGroup;
 			children = (
+				977F80DA1C2138DD002A7EC1 /* 网络引擎 */,
+				977F80D31C210980002A7EC1 /* 共通 */,
 				977F80A11C20FDF9002A7EC1 /* Root */,
 				977F7FC11C20F91F002A7EC1 /* 第三方 */,
 				977F7FBD1C20F62E002A7EC1 /* 首页 */,
@@ -328,11 +370,7 @@
 				977F7FB01C20F5C7002A7EC1 /* 设置 */,
 				977F7FB41C20F5C7002A7EC1 /* 社区 */,
 				977F7FBC1C20F5C7002A7EC1 /* 资源 */,
-				975D6D2C1C17D2420042533C /* ViewController.h */,
-				975D6D2D1C17D2420042533C /* ViewController.m */,
-				975D6D2F1C17D2420042533C /* Main.storyboard */,
 				975D6D321C17D2420042533C /* Assets.xcassets */,
-				975D6D341C17D2420042533C /* LaunchScreen.storyboard */,
 				975D6D371C17D2420042533C /* Info.plist */,
 				975D6D261C17D2420042533C /* Supporting Files */,
 				97C506F01C1ABDDB000A8BFA /* SoulFM.pch */,
@@ -343,6 +381,7 @@
 		975D6D261C17D2420042533C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				977F80D51C212FF5002A7EC1 /* xiong4.7.png */,
 				977F809F1C20FDB5002A7EC1 /* Itemslist.plist */,
 				975D6D291C17D2420042533C /* AppDelegate.h */,
 				975D6D2A1C17D2420042533C /* AppDelegate.m */,
@@ -365,6 +404,11 @@
 		977F7FAB1C20F5C7002A7EC1 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				977F80E71C21425B002A7EC1 /* FMConfigration.h */,
+				977F80E81C21425B002A7EC1 /* FMConfigration.m */,
+				977F80D71C213434002A7EC1 /* FMUtil.h */,
+				977F80D81C213434002A7EC1 /* FMUtil.m */,
+				977F80C61C210490002A7EC1 /* 分类 */,
 			);
 			path = "工具";
 			sourceTree = "<group>";
@@ -512,6 +556,14 @@
 		977F7FBE1C20F62E002A7EC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				977F81011C214D8D002A7EC1 /* newlession */,
+				977F81001C214D85002A7EC1 /* newfm */,
+				977F80F01C214927002A7EC1 /* hotfm */,
+				977F80FF1C214D2B002A7EC1 /* Catagory */,
+				977F80FE1C214D12002A7EC1 /* tuijian */,
+				977F80FD1C214CFC002A7EC1 /* diantai */,
+				977F81041C2154A4002A7EC1 /* HomeModel.h */,
+				977F81051C2154A4002A7EC1 /* HomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -715,6 +767,8 @@
 			children = (
 				977F80BD1C20FF20002A7EC1 /* TabbarItem.h */,
 				977F80BE1C20FF20002A7EC1 /* TabbarItem.m */,
+				977F80C31C210369002A7EC1 /* FMBaseModel.h */,
+				977F80C41C210369002A7EC1 /* FMBaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -759,6 +813,92 @@
 				977F80B21C20FEA5002A7EC1 /* DiscoverViewController.xib */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		977F80C61C210490002A7EC1 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				977F80C71C210490002A7EC1 /* UIViewController+TabBarItem.h */,
+				977F80C81C210490002A7EC1 /* UIViewController+TabBarItem.m */,
+				977F80E41C213E25002A7EC1 /* NSString+URLEncode.h */,
+				977F80E51C213E25002A7EC1 /* NSString+URLEncode.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		977F80D31C210980002A7EC1 /* 共通 */ = {
+			isa = PBXGroup;
+			children = (
+				977F80D41C21099D002A7EC1 /* FMCommonDefine.h */,
+			);
+			path = "共通";
+			sourceTree = "<group>";
+		};
+		977F80DA1C2138DD002A7EC1 /* 网络引擎 */ = {
+			isa = PBXGroup;
+			children = (
+				977F80DB1C2138FF002A7EC1 /* FMNetEngine.h */,
+				977F80DC1C2138FF002A7EC1 /* FMNetEngine.m */,
+				977F80DE1C213C5D002A7EC1 /* HomeNetEngine.h */,
+				977F80DF1C213C5D002A7EC1 /* HomeNetEngine.m */,
+			);
+			path = "网络引擎";
+			sourceTree = "<group>";
+		};
+		977F80F01C214927002A7EC1 /* hotfm */ = {
+			isa = PBXGroup;
+			children = (
+				977F80F11C21493C002A7EC1 /* HotFMModel.h */,
+				977F80F21C21493C002A7EC1 /* HotFMModel.m */,
+				977F80F41C21495D002A7EC1 /* DianTaiModel.h */,
+				977F80F51C21495D002A7EC1 /* DianTaiModel.m */,
+				977F80F71C214977002A7EC1 /* UserModel.h */,
+				977F80F81C214977002A7EC1 /* UserModel.m */,
+			);
+			name = hotfm;
+			sourceTree = "<group>";
+		};
+		977F80FD1C214CFC002A7EC1 /* diantai */ = {
+			isa = PBXGroup;
+			children = (
+				977F80FA1C214C9B002A7EC1 /* TopDianModel.h */,
+				977F80FB1C214C9B002A7EC1 /* TopDianModel.m */,
+			);
+			name = diantai;
+			sourceTree = "<group>";
+		};
+		977F80FE1C214D12002A7EC1 /* tuijian */ = {
+			isa = PBXGroup;
+			children = (
+				977F81071C215802002A7EC1 /* TuiJianModel.h */,
+				977F81081C215802002A7EC1 /* TuiJianModel.m */,
+			);
+			name = tuijian;
+			sourceTree = "<group>";
+		};
+		977F80FF1C214D2B002A7EC1 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				977F80ED1C2148D9002A7EC1 /* Catagory.h */,
+				977F80EE1C2148D9002A7EC1 /* Catagory.m */,
+			);
+			name = Catagory;
+			sourceTree = "<group>";
+		};
+		977F81001C214D85002A7EC1 /* newfm */ = {
+			isa = PBXGroup;
+			children = (
+				977F81031C214E24002A7EC1 /* FMNewFM.h */,
+			);
+			name = newfm;
+			sourceTree = "<group>";
+		};
+		977F81011C214D8D002A7EC1 /* newlession */ = {
+			isa = PBXGroup;
+			children = (
+				977F81021C214DE0002A7EC1 /* FMNewLession.h */,
+			);
+			name = newlession;
 			sourceTree = "<group>";
 		};
 		ECD48C62F40E76E54B763151 /* Frameworks */ = {
@@ -830,7 +970,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975D6D361C17D2420042533C /* LaunchScreen.storyboard in Resources */,
 				977F80B41C20FEA5002A7EC1 /* DiscoverViewController.xib in Resources */,
 				977F805F1C20F96E002A7EC1 /* pre.png in Resources */,
 				977F802C1C20F96E002A7EC1 /* emotion3.png in Resources */,
@@ -894,6 +1033,7 @@
 				977F80591C20F96E002A7EC1 /* menglayer.png in Resources */,
 				977F80441C20F96E002A7EC1 /* shezhiXiong1@2x.png in Resources */,
 				977F80541C20F96E002A7EC1 /* littlePlaying3@2x.png in Resources */,
+				977F80D61C212FF5002A7EC1 /* xiong4.7.png in Resources */,
 				977F805D1C20F96E002A7EC1 /* play.png in Resources */,
 				977F80311C20F96E002A7EC1 /* emotion8.png in Resources */,
 				977F805E1C20F96E002A7EC1 /* PostEdit@2x.png in Resources */,
@@ -901,7 +1041,6 @@
 				977F805B1C20F96E002A7EC1 /* pause.png in Resources */,
 				977F80401C20F96E002A7EC1 /* myXiong1@2x.png in Resources */,
 				977F80351C20F96E002A7EC1 /* scene3.png in Resources */,
-				975D6D311C17D2420042533C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -960,64 +1099,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977F80EF1C2148D9002A7EC1 /* Catagory.m in Sources */,
 				977F80921C20FBA9002A7EC1 /* MMProgressHUDOverlayView.m in Sources */,
-				975D6D2E1C17D2420042533C /* ViewController.m in Sources */,
 				977F809C1C20FBA9002A7EC1 /* WSProgressHUD.m in Sources */,
 				975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */,
 				977F80931C20FBA9002A7EC1 /* MMProgressHUDViewController.m in Sources */,
+				977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */,
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
 				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
+				977F80F91C214977002A7EC1 /* UserModel.m in Sources */,
 				977F80951C20FBA9002A7EC1 /* MMRadialProgressView.m in Sources */,
 				977F80981C20FBA9002A7EC1 /* FBShimmeringView.m in Sources */,
+				977F80C51C210369002A7EC1 /* FMBaseModel.m in Sources */,
 				977F7FE11C20F91F002A7EC1 /* JHRefreshConfig.m in Sources */,
 				977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */,
 				977F7FE01C20F91F002A7EC1 /* JHRefreshBaseView.m in Sources */,
+				977F80DD1C2138FF002A7EC1 /* FMNetEngine.m in Sources */,
+				977F80E91C21425B002A7EC1 /* FMConfigration.m in Sources */,
 				977F80941C20FBA9002A7EC1 /* MMProgressHUDWindow.m in Sources */,
 				977F80A71C20FE2B002A7EC1 /* FMBaseViewController.m in Sources */,
 				977F80911C20FBA9002A7EC1 /* MMProgressHUD.m in Sources */,
 				977F7FE61C20F91F002A7EC1 /* UIView+JHExtension.m in Sources */,
+				977F80E61C213E25002A7EC1 /* NSString+URLEncode.m in Sources */,
+				977F80E01C213C5D002A7EC1 /* HomeNetEngine.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
 				977F809A1C20FBA9002A7EC1 /* WSIndefiniteAnimationView.m in Sources */,
 				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
 				977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */,
+				977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */,
 				977F7FE31C20F91F002A7EC1 /* JHRefreshHeaderView.m in Sources */,
+				977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */,
+				977F80D91C213434002A7EC1 /* FMUtil.m in Sources */,
 				977F7FDD1C20F91F002A7EC1 /* JHRefreshAniBaseView.m in Sources */,
 				977F80991C20FBA9002A7EC1 /* MMMaterialDesignSpinner.m in Sources */,
 				977F808D1C20FBA9002A7EC1 /* MMHud.m in Sources */,
+				977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */,
 				977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */,
 				977F80AB1C20FE5F002A7EC1 /* HomeViewController.m in Sources */,
 				977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */,
+				977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */,
 				977F80901C20FBA9002A7EC1 /* MMProgressHUD+Class.m in Sources */,
 				977F7FE21C20F91F002A7EC1 /* JHRefreshFooterView.m in Sources */,
 				977F808E1C20FBA9002A7EC1 /* MMLinearProgressView.m in Sources */,
 				977F7FDC1C20F91F002A7EC1 /* JHRefreshAmazingAniView.m in Sources */,
 				977F7FE51C20F91F002A7EC1 /* UIScrollView+JHRefresh.m in Sources */,
+				977F80C91C210490002A7EC1 /* UIViewController+TabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		975D6D2F1C17D2420042533C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				975D6D301C17D2420042533C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		975D6D341C17D2420042533C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				975D6D351C17D2420042533C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		975D6D381C17D2420042533C /* Debug */ = {
@@ -1105,6 +1238,7 @@
 			baseConfigurationReference = 7D22D65FB9A69EE4D7B5A2F6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SoulFM/SoulFM.pch";
 				INFOPLIST_FILE = SoulFM/Info.plist;
@@ -1119,6 +1253,7 @@
 			baseConfigurationReference = 2CFFAF22A9178386E6859EA4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SoulFM/SoulFM.pch";
 				INFOPLIST_FILE = SoulFM/Info.plist;

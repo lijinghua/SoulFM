@@ -16,7 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+}
+
+#pragma mark - 配置
+
+- (NSString*)fetchEngineConfigrationKey
+{
+    return kHomeDataEngine;
+}
+
+- (void)customTableViewCell
+{
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellId"];
+}
+
+#pragma mark - UITableView代理
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 0;
+}
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return nil;
 }
 
 - (void)didReceiveMemoryWarning {

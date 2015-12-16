@@ -10,4 +10,16 @@
 
 @implementation TabbarItem
 
+- (UIImage*)normalImage
+{
+    return [UIImage imageNamed:self.normalImageName];
+}
+
+- (UIImage*)selectedImage
+{
+    UIImage *image = [UIImage imageNamed:self.selectedImageName];
+    return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+}
+
+
 @end

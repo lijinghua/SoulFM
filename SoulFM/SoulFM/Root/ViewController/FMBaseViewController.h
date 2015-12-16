@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FMBaseViewController : UIViewController
-
+@interface FMBaseViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,copy)NSString *fetchEngineConfigrationKey;
+@property(nonatomic)UITableView *tableView;
 @end
