@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>selectedImageName</key>
+		<string>shouyeSelectedXiong1</string>
+		<key>normalImageName</key>
+		<string>shouyeXiong1</string>
+		<key>className</key>
+		<string>HomeViewController</string>
+		<key>title</key>
+		<string>首页</string>
+	</dict>
+	<dict>
+		<key>selectedImageName</key>
+		<string>faxianSelectedXiong1</string>
+		<key>normalImageName</key>
+		<string>faxianXiong1</string>
+		<key>className</key>
+		<string>DiscoverViewController</string>
+		<key>title</key>
+		<string>发现</string>
+	</dict>
+	<dict>
+		<key>selectedImageName</key>
+		<string>shequSelectedXiong1</string>
+		<key>normalImageName</key>
+		<string>shequXiong1</string>
+		<key>className</key>
+		<string>CommunityViewController</string>
+		<key>title</key>
+		<string>社区</string>
+	</dict>
+	<dict>
+		<key>selectedImageName</key>
+		<string>shezhiSelectedXiong1</string>
+		<key>normalImageName</key>
+		<string>shezhiXiong1</string>
+		<key>className</key>
+		<string>SettingViewController</string>
+		<key>title</key>
+		<string>设置</string>
+	</dict>
+</array>
+</plist>
