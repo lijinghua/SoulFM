@@ -22,7 +22,12 @@
     
     typeof(self) weakSelf = self;
     self.successBlock = ^(id respondObject){
+
+        //解析网络数据
         weakSelf.homeModel = [[HomeModel alloc]initWithDictionary:respondObject[@"data"] error:nil];
+        if ([weakSelf.delegate respondsToSelector:@selector(netEngine:dataSource:)]) {
+            [weakSelf.delegate netEngine:weakSelf dataSource:weakSelf.homeModel];
+        }
     };
     
     self.faliedBlock = ^(NSError *error){

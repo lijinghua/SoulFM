@@ -128,6 +128,32 @@
 		977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80FB1C214C9B002A7EC1 /* TopDianModel.m */; };
 		977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81051C2154A4002A7EC1 /* HomeModel.m */; };
 		977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81081C215802002A7EC1 /* TuiJianModel.m */; };
+		977F81301C21A1F9002A7EC1 /* HomeTableViewFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F812F1C21A1F9002A7EC1 /* HomeTableViewFirstCell.m */; };
+		977F81331C21A2F0002A7EC1 /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81321C21A2F0002A7EC1 /* AutoScrollView.m */; };
+		977F81371C21A3C4002A7EC1 /* HomeTableViewSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81351C21A3C4002A7EC1 /* HomeTableViewSecondCell.m */; };
+		977F813C1C21A3EB002A7EC1 /* HomeTableViewThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F813A1C21A3EB002A7EC1 /* HomeTableViewThirdCell.m */; };
+		977F81411C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F813F1C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m */; };
+		977F81421C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81401C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib */; };
+		977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81441C21A46C002A7EC1 /* HomeTableViewSixCell.m */; };
+		977F814D1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F814B1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m */; };
+		977F814E1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F814C1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib */; };
+		977F81581C225B10002A7EC1 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81571C225B10002A7EC1 /* HomeTableViewCell.m */; };
+		977F81741C226E5A002A7EC1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 977F815A1C226E5A002A7EC1 /* Info.plist */; };
+		977F81751C226E5A002A7EC1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F815C1C226E5A002A7EC1 /* MASCompositeConstraint.m */; };
+		977F81761C226E5A002A7EC1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F815F1C226E5A002A7EC1 /* MASConstraint.m */; };
+		977F81771C226E5A002A7EC1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81611C226E5A002A7EC1 /* MASConstraintMaker.m */; };
+		977F81781C226E5A002A7EC1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81631C226E5A002A7EC1 /* MASLayoutConstraint.m */; };
+		977F81791C226E5A002A7EC1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81671C226E5A002A7EC1 /* MASViewAttribute.m */; };
+		977F817A1C226E5A002A7EC1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81691C226E5A002A7EC1 /* MASViewConstraint.m */; };
+		977F817B1C226E5A002A7EC1 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F816B1C226E5A002A7EC1 /* NSArray+MASAdditions.m */; };
+		977F817C1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F816E1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		977F817D1C226E5A002A7EC1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81701C226E5A002A7EC1 /* View+MASAdditions.m */; };
+		977F817E1C226E5A002A7EC1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81731C226E5A002A7EC1 /* ViewController+MASAdditions.m */; };
+		977F81821C22A335002A7EC1 /* HomeSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81811C22A335002A7EC1 /* HomeSectionHeaderView.m */; };
+		977F81851C22A349002A7EC1 /* HomeSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81841C22A349002A7EC1 /* HomeSectionFooterView.m */; };
+		977F81871C22A365002A7EC1 /* HomeSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */; };
+		977F81891C22A378002A7EC1 /* HomeSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */; };
+		977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 977F818A1C22AFA6002A7EC1 /* more111@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -311,6 +337,58 @@
 		977F81051C2154A4002A7EC1 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		977F81071C215802002A7EC1 /* TuiJianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuiJianModel.h; sourceTree = "<group>"; };
 		977F81081C215802002A7EC1 /* TuiJianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuiJianModel.m; sourceTree = "<group>"; };
+		977F812D1C219F2E002A7EC1 /* FMNetEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNetEngineDelegate.h; sourceTree = "<group>"; };
+		977F812E1C21A1F9002A7EC1 /* HomeTableViewFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewFirstCell.h; sourceTree = "<group>"; };
+		977F812F1C21A1F9002A7EC1 /* HomeTableViewFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewFirstCell.m; sourceTree = "<group>"; };
+		977F81311C21A2F0002A7EC1 /* AutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollView.h; sourceTree = "<group>"; };
+		977F81321C21A2F0002A7EC1 /* AutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollView.m; sourceTree = "<group>"; };
+		977F81341C21A3C4002A7EC1 /* HomeTableViewSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewSecondCell.h; sourceTree = "<group>"; };
+		977F81351C21A3C4002A7EC1 /* HomeTableViewSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewSecondCell.m; sourceTree = "<group>"; };
+		977F81391C21A3EB002A7EC1 /* HomeTableViewThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewThirdCell.h; sourceTree = "<group>"; };
+		977F813A1C21A3EB002A7EC1 /* HomeTableViewThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewThirdCell.m; sourceTree = "<group>"; };
+		977F813E1C21A445002A7EC1 /* HomeTableViewFoutFiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewFoutFiveCell.h; sourceTree = "<group>"; };
+		977F813F1C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewFoutFiveCell.m; sourceTree = "<group>"; };
+		977F81401C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewFoutFiveCell.xib; sourceTree = "<group>"; };
+		977F81431C21A46B002A7EC1 /* HomeTableViewSixCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewSixCell.h; sourceTree = "<group>"; };
+		977F81441C21A46C002A7EC1 /* HomeTableViewSixCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewSixCell.m; sourceTree = "<group>"; };
+		977F814A1C224354002A7EC1 /* HomeCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeCategoryCollectionViewCell.h; path = "../../首页/View/HomeCategoryCollectionViewCell.h"; sourceTree = "<group>"; };
+		977F814B1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeCategoryCollectionViewCell.m; path = "../../首页/View/HomeCategoryCollectionViewCell.m"; sourceTree = "<group>"; };
+		977F814C1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeCategoryCollectionViewCell.xib; path = "../../首页/View/HomeCategoryCollectionViewCell.xib"; sourceTree = "<group>"; };
+		977F81561C225B10002A7EC1 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		977F81571C225B10002A7EC1 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		977F815A1C226E5A002A7EC1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977F815B1C226E5A002A7EC1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		977F815C1C226E5A002A7EC1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		977F815D1C226E5A002A7EC1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		977F815E1C226E5A002A7EC1 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		977F815F1C226E5A002A7EC1 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		977F81601C226E5A002A7EC1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		977F81611C226E5A002A7EC1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		977F81621C226E5A002A7EC1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		977F81631C226E5A002A7EC1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		977F81641C226E5A002A7EC1 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		977F81651C226E5A002A7EC1 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		977F81661C226E5A002A7EC1 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		977F81671C226E5A002A7EC1 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		977F81681C226E5A002A7EC1 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		977F81691C226E5A002A7EC1 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		977F816A1C226E5A002A7EC1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		977F816B1C226E5A002A7EC1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		977F816C1C226E5A002A7EC1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		977F816D1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		977F816E1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		977F816F1C226E5A002A7EC1 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		977F81701C226E5A002A7EC1 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		977F81711C226E5A002A7EC1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		977F81721C226E5A002A7EC1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		977F81731C226E5A002A7EC1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		977F81801C22A335002A7EC1 /* HomeSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSectionHeaderView.h; sourceTree = "<group>"; };
+		977F81811C22A335002A7EC1 /* HomeSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSectionHeaderView.m; sourceTree = "<group>"; };
+		977F81831C22A349002A7EC1 /* HomeSectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSectionFooterView.h; sourceTree = "<group>"; };
+		977F81841C22A349002A7EC1 /* HomeSectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSectionFooterView.m; sourceTree = "<group>"; };
+		977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionHeaderView.xib; sourceTree = "<group>"; };
+		977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionFooterView.xib; sourceTree = "<group>"; };
+		977F818A1C22AFA6002A7EC1 /* more111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more111@2x.png"; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		E876286C586B46F44F5E159A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -433,6 +511,8 @@
 		977F7FAE1C20F5C7002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				977F81311C21A2F0002A7EC1 /* AutoScrollView.h */,
+				977F81321C21A2F0002A7EC1 /* AutoScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -514,6 +594,7 @@
 		977F7FBC1C20F5C7002A7EC1 /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				977F818A1C22AFA6002A7EC1 /* more111@2x.png */,
 				977F7FE71C20F96E002A7EC1 /* 烦恼 */,
 				977F7FF11C20F96E002A7EC1 /* 心情 */,
 				977F7FFB1C20F96E002A7EC1 /* back.png */,
@@ -571,6 +652,12 @@
 		977F7FBF1C20F62E002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				977F817F1C22A2FF002A7EC1 /* 头部尾部 */,
+				977F81511C2252A5002A7EC1 /* 电台 */,
+				977F81501C22528A002A7EC1 /* newFMLesson */,
+				977F814F1C224AB8002A7EC1 /* 热门FM */,
+				977F81491C224303002A7EC1 /* 类别 */,
+				977F81481C2242F3002A7EC1 /* 推荐 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -588,6 +675,7 @@
 		977F7FC11C20F91F002A7EC1 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				977F81591C226E5A002A7EC1 /* Masonry */,
 				977F80691C20FBA9002A7EC1 /* MMProgressHUD */,
 				977F807F1C20FBA9002A7EC1 /* WSProgressHUD */,
 				977F7FC21C20F91F002A7EC1 /* JHRefresh */,
@@ -776,6 +864,7 @@
 		977F80A31C20FE13002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				977F81521C225955002A7EC1 /* 首页 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -841,6 +930,7 @@
 				977F80DC1C2138FF002A7EC1 /* FMNetEngine.m */,
 				977F80DE1C213C5D002A7EC1 /* HomeNetEngine.h */,
 				977F80DF1C213C5D002A7EC1 /* HomeNetEngine.m */,
+				977F812D1C219F2E002A7EC1 /* FMNetEngineDelegate.h */,
 			);
 			path = "网络引擎";
 			sourceTree = "<group>";
@@ -899,6 +989,110 @@
 				977F81021C214DE0002A7EC1 /* FMNewLession.h */,
 			);
 			name = newlession;
+			sourceTree = "<group>";
+		};
+		977F81481C2242F3002A7EC1 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				977F812E1C21A1F9002A7EC1 /* HomeTableViewFirstCell.h */,
+				977F812F1C21A1F9002A7EC1 /* HomeTableViewFirstCell.m */,
+			);
+			name = "推荐";
+			sourceTree = "<group>";
+		};
+		977F81491C224303002A7EC1 /* 类别 */ = {
+			isa = PBXGroup;
+			children = (
+				977F81341C21A3C4002A7EC1 /* HomeTableViewSecondCell.h */,
+				977F81351C21A3C4002A7EC1 /* HomeTableViewSecondCell.m */,
+			);
+			name = "类别";
+			sourceTree = "<group>";
+		};
+		977F814F1C224AB8002A7EC1 /* 热门FM */ = {
+			isa = PBXGroup;
+			children = (
+				977F81391C21A3EB002A7EC1 /* HomeTableViewThirdCell.h */,
+				977F813A1C21A3EB002A7EC1 /* HomeTableViewThirdCell.m */,
+			);
+			name = "热门FM";
+			sourceTree = "<group>";
+		};
+		977F81501C22528A002A7EC1 /* newFMLesson */ = {
+			isa = PBXGroup;
+			children = (
+				977F813E1C21A445002A7EC1 /* HomeTableViewFoutFiveCell.h */,
+				977F813F1C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m */,
+				977F81401C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib */,
+			);
+			name = newFMLesson;
+			sourceTree = "<group>";
+		};
+		977F81511C2252A5002A7EC1 /* 电台 */ = {
+			isa = PBXGroup;
+			children = (
+				977F81431C21A46B002A7EC1 /* HomeTableViewSixCell.h */,
+				977F81441C21A46C002A7EC1 /* HomeTableViewSixCell.m */,
+			);
+			name = "电台";
+			sourceTree = "<group>";
+		};
+		977F81521C225955002A7EC1 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				977F81561C225B10002A7EC1 /* HomeTableViewCell.h */,
+				977F81571C225B10002A7EC1 /* HomeTableViewCell.m */,
+				977F814A1C224354002A7EC1 /* HomeCategoryCollectionViewCell.h */,
+				977F814B1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m */,
+				977F814C1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		977F81591C226E5A002A7EC1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				977F815A1C226E5A002A7EC1 /* Info.plist */,
+				977F815B1C226E5A002A7EC1 /* MASCompositeConstraint.h */,
+				977F815C1C226E5A002A7EC1 /* MASCompositeConstraint.m */,
+				977F815D1C226E5A002A7EC1 /* MASConstraint+Private.h */,
+				977F815E1C226E5A002A7EC1 /* MASConstraint.h */,
+				977F815F1C226E5A002A7EC1 /* MASConstraint.m */,
+				977F81601C226E5A002A7EC1 /* MASConstraintMaker.h */,
+				977F81611C226E5A002A7EC1 /* MASConstraintMaker.m */,
+				977F81621C226E5A002A7EC1 /* MASLayoutConstraint.h */,
+				977F81631C226E5A002A7EC1 /* MASLayoutConstraint.m */,
+				977F81641C226E5A002A7EC1 /* Masonry.h */,
+				977F81651C226E5A002A7EC1 /* MASUtilities.h */,
+				977F81661C226E5A002A7EC1 /* MASViewAttribute.h */,
+				977F81671C226E5A002A7EC1 /* MASViewAttribute.m */,
+				977F81681C226E5A002A7EC1 /* MASViewConstraint.h */,
+				977F81691C226E5A002A7EC1 /* MASViewConstraint.m */,
+				977F816A1C226E5A002A7EC1 /* NSArray+MASAdditions.h */,
+				977F816B1C226E5A002A7EC1 /* NSArray+MASAdditions.m */,
+				977F816C1C226E5A002A7EC1 /* NSArray+MASShorthandAdditions.h */,
+				977F816D1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				977F816E1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				977F816F1C226E5A002A7EC1 /* View+MASAdditions.h */,
+				977F81701C226E5A002A7EC1 /* View+MASAdditions.m */,
+				977F81711C226E5A002A7EC1 /* View+MASShorthandAdditions.h */,
+				977F81721C226E5A002A7EC1 /* ViewController+MASAdditions.h */,
+				977F81731C226E5A002A7EC1 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		977F817F1C22A2FF002A7EC1 /* 头部尾部 */ = {
+			isa = PBXGroup;
+			children = (
+				977F81801C22A335002A7EC1 /* HomeSectionHeaderView.h */,
+				977F81811C22A335002A7EC1 /* HomeSectionHeaderView.m */,
+				977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */,
+				977F81831C22A349002A7EC1 /* HomeSectionFooterView.h */,
+				977F81841C22A349002A7EC1 /* HomeSectionFooterView.m */,
+				977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */,
+			);
+			name = "头部尾部";
 			sourceTree = "<group>";
 		};
 		ECD48C62F40E76E54B763151 /* Frameworks */ = {
@@ -980,6 +1174,7 @@
 				977F80471C20F96E002A7EC1 /* tabBg@2x.png in Resources */,
 				977F80481C20F96E002A7EC1 /* bg1.png in Resources */,
 				977F805C1C20F96E002A7EC1 /* pinglunButton.png in Resources */,
+				977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */,
 				977F80371C20F96E002A7EC1 /* scene5.png in Resources */,
 				977F80521C20F96E002A7EC1 /* littlePlaying1@2x.png in Resources */,
 				977F80641C20F96E002A7EC1 /* shouyeBg.png in Resources */,
@@ -988,8 +1183,10 @@
 				977F80551C20F96E002A7EC1 /* littlePlaying4@2x.png in Resources */,
 				977F80461C20F96E002A7EC1 /* shouyeXiong1@2x.png in Resources */,
 				977F80341C20F96E002A7EC1 /* scene2.png in Resources */,
+				977F81871C22A365002A7EC1 /* HomeSectionHeaderView.xib in Resources */,
 				977F80431C20F96E002A7EC1 /* shezhiSelectedXiong1@2x.png in Resources */,
 				977F802F1C20F96E002A7EC1 /* emotion6.png in Resources */,
+				977F81741C226E5A002A7EC1 /* Info.plist in Resources */,
 				977F80681C20F96E002A7EC1 /* whiteback.png in Resources */,
 				977F7FDF1C20F91F002A7EC1 /* JHRefresh.bundle in Resources */,
 				977F80581C20F96E002A7EC1 /* loadMoreGift.png in Resources */,
@@ -997,6 +1194,7 @@
 				977F80331C20F96E002A7EC1 /* scene1.png in Resources */,
 				977F80A01C20FDB5002A7EC1 /* Itemslist.plist in Resources */,
 				977F804E1C20F96E002A7EC1 /* littlePaused3@2x.png in Resources */,
+				977F81421C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib in Resources */,
 				977F804C1C20F96E002A7EC1 /* littlePaused1@2x.png in Resources */,
 				977F802A1C20F96E002A7EC1 /* emotion1.png in Resources */,
 				975D6D331C17D2420042533C /* Assets.xcassets in Resources */,
@@ -1009,6 +1207,7 @@
 				977F804D1C20F96E002A7EC1 /* littlePaused2@2x.png in Resources */,
 				977F80651C20F96E002A7EC1 /* theLatestOneMengLayer.png in Resources */,
 				977F803A1C20F96E002A7EC1 /* scene8.png in Resources */,
+				977F814E1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib in Resources */,
 				977F80511C20F96E002A7EC1 /* littlePaused6@2x.png in Resources */,
 				977F803B1C20F96E002A7EC1 /* scene9.png in Resources */,
 				977F802B1C20F96E002A7EC1 /* emotion2.png in Resources */,
@@ -1036,6 +1235,7 @@
 				977F80D61C212FF5002A7EC1 /* xiong4.7.png in Resources */,
 				977F805D1C20F96E002A7EC1 /* play.png in Resources */,
 				977F80311C20F96E002A7EC1 /* emotion8.png in Resources */,
+				977F81891C22A378002A7EC1 /* HomeSectionFooterView.xib in Resources */,
 				977F805E1C20F96E002A7EC1 /* PostEdit@2x.png in Resources */,
 				977F80421C20F96E002A7EC1 /* shequXiong1@2x.png in Resources */,
 				977F805B1C20F96E002A7EC1 /* pause.png in Resources */,
@@ -1101,48 +1301,68 @@
 			files = (
 				977F80EF1C2148D9002A7EC1 /* Catagory.m in Sources */,
 				977F80921C20FBA9002A7EC1 /* MMProgressHUDOverlayView.m in Sources */,
+				977F81821C22A335002A7EC1 /* HomeSectionHeaderView.m in Sources */,
 				977F809C1C20FBA9002A7EC1 /* WSProgressHUD.m in Sources */,
+				977F814D1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m in Sources */,
 				975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */,
 				977F80931C20FBA9002A7EC1 /* MMProgressHUDViewController.m in Sources */,
+				977F81791C226E5A002A7EC1 /* MASViewAttribute.m in Sources */,
 				977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */,
+				977F817D1C226E5A002A7EC1 /* View+MASAdditions.m in Sources */,
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
 				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
 				977F80F91C214977002A7EC1 /* UserModel.m in Sources */,
 				977F80951C20FBA9002A7EC1 /* MMRadialProgressView.m in Sources */,
+				977F817B1C226E5A002A7EC1 /* NSArray+MASAdditions.m in Sources */,
+				977F81771C226E5A002A7EC1 /* MASConstraintMaker.m in Sources */,
 				977F80981C20FBA9002A7EC1 /* FBShimmeringView.m in Sources */,
 				977F80C51C210369002A7EC1 /* FMBaseModel.m in Sources */,
+				977F81411C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m in Sources */,
 				977F7FE11C20F91F002A7EC1 /* JHRefreshConfig.m in Sources */,
 				977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */,
+				977F81581C225B10002A7EC1 /* HomeTableViewCell.m in Sources */,
 				977F7FE01C20F91F002A7EC1 /* JHRefreshBaseView.m in Sources */,
+				977F817C1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				977F80DD1C2138FF002A7EC1 /* FMNetEngine.m in Sources */,
 				977F80E91C21425B002A7EC1 /* FMConfigration.m in Sources */,
+				977F81761C226E5A002A7EC1 /* MASConstraint.m in Sources */,
 				977F80941C20FBA9002A7EC1 /* MMProgressHUDWindow.m in Sources */,
 				977F80A71C20FE2B002A7EC1 /* FMBaseViewController.m in Sources */,
 				977F80911C20FBA9002A7EC1 /* MMProgressHUD.m in Sources */,
 				977F7FE61C20F91F002A7EC1 /* UIView+JHExtension.m in Sources */,
 				977F80E61C213E25002A7EC1 /* NSString+URLEncode.m in Sources */,
 				977F80E01C213C5D002A7EC1 /* HomeNetEngine.m in Sources */,
+				977F81371C21A3C4002A7EC1 /* HomeTableViewSecondCell.m in Sources */,
+				977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
+				977F817E1C226E5A002A7EC1 /* ViewController+MASAdditions.m in Sources */,
 				977F809A1C20FBA9002A7EC1 /* WSIndefiniteAnimationView.m in Sources */,
 				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
 				977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */,
 				977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */,
+				977F81301C21A1F9002A7EC1 /* HomeTableViewFirstCell.m in Sources */,
 				977F7FE31C20F91F002A7EC1 /* JHRefreshHeaderView.m in Sources */,
 				977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */,
 				977F80D91C213434002A7EC1 /* FMUtil.m in Sources */,
 				977F7FDD1C20F91F002A7EC1 /* JHRefreshAniBaseView.m in Sources */,
 				977F80991C20FBA9002A7EC1 /* MMMaterialDesignSpinner.m in Sources */,
 				977F808D1C20FBA9002A7EC1 /* MMHud.m in Sources */,
+				977F81751C226E5A002A7EC1 /* MASCompositeConstraint.m in Sources */,
 				977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */,
 				977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */,
+				977F81331C21A2F0002A7EC1 /* AutoScrollView.m in Sources */,
+				977F813C1C21A3EB002A7EC1 /* HomeTableViewThirdCell.m in Sources */,
 				977F80AB1C20FE5F002A7EC1 /* HomeViewController.m in Sources */,
 				977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */,
+				977F81781C226E5A002A7EC1 /* MASLayoutConstraint.m in Sources */,
 				977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */,
 				977F80901C20FBA9002A7EC1 /* MMProgressHUD+Class.m in Sources */,
 				977F7FE21C20F91F002A7EC1 /* JHRefreshFooterView.m in Sources */,
+				977F81851C22A349002A7EC1 /* HomeSectionFooterView.m in Sources */,
+				977F817A1C226E5A002A7EC1 /* MASViewConstraint.m in Sources */,
 				977F808E1C20FBA9002A7EC1 /* MMLinearProgressView.m in Sources */,
 				977F7FDC1C20F91F002A7EC1 /* JHRefreshAmazingAniView.m in Sources */,
 				977F7FE51C20F91F002A7EC1 /* UIScrollView+JHRefresh.m in Sources */,

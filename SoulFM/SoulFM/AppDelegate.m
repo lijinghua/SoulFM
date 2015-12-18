@@ -63,12 +63,12 @@
     NetworkStatus status = [reachablity currentReachabilityStatus];
     switch (status) {
         case NotReachable:
-            [FMUtil showAlterTip:@"网络不通,请检查你的网络"];
+            //[FMUtil showAlterTip:@"网络不通,请检查你的网络"];
             break;
         case ReachableViaWiFi:
             break;
         case ReachableViaWWAN:
-            [FMUtil showAlterTip:@"目前网络不是WIFI,建议切换到WIFI"];
+            //[FMUtil showAlterTip:@"目前网络不是WIFI,建议切换到WIFI"];
             break;
         default:
             break;

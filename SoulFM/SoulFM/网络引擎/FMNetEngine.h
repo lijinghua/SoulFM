@@ -16,6 +16,7 @@ typedef NS_ENUM(NSInteger,FMFetchMethod){
     POST = 1
 };
 
+@protocol FMNetEngineDelegate;
 @interface FMNetEngine : NSObject
 
 @property(nonatomic,assign)FMFetchMethod  method;
@@ -23,6 +24,8 @@ typedef NS_ENUM(NSInteger,FMFetchMethod){
 @property(nonatomic,copy)NSDictionary     *paramter;
 @property(nonatomic,copy)SuccessBlockType successBlock;
 @property(nonatomic,copy)FailedBlockType  faliedBlock;
+
+@property(nonatomic,weak)id<FMNetEngineDelegate> delegate;
 
 //配置数据
 - (void)fetchNetworkData;

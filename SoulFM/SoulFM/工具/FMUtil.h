@@ -12,4 +12,6 @@
 
 + (void)showAlterTip:(NSString*)message;
 
++ (UIViewController*)firstResondViewController:(UIView*)view;
+
 @end

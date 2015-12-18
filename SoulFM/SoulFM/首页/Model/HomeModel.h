@@ -19,10 +19,13 @@
 @interface HomeModel : JSONModel
 
 @property(nonatomic)NSArray<TuiJianModel>      *tuijian;
-@property(nonatomic)NSArray<HotFMModel>  *newlesson;
-@property(nonatomic)NSArray<HotFMModel>      *newfm;
+@property(nonatomic)NSArray<HotFMModel>        *newlesson;
+@property(nonatomic)NSArray<HotFMModel>        *newfm;
 @property(nonatomic)NSArray<HotFMModel>        *hotfm;
 @property(nonatomic)NSArray<Catagory>          *category;
 @property(nonatomic)NSArray<TopDianModel>      *diantai;
+
+
+- (NSArray*)allModelForKey:(NSString*)modelKey;
 
 @end

@@ -20,4 +20,14 @@
     [rootViewController presentViewController:alterController animated:YES completion:nil];
 }
 
++ (UIViewController*)firstResondViewController:(UIView*)view
+{
+    UIResponder *responder = view.nextResponder;
+    while (responder !=  nil && ![responder isKindOfClass:[UIViewController class]]) {
+        responder = responder.nextResponder;
+    }
+    
+    return (UIViewController*)responder;
+}
+
 @end

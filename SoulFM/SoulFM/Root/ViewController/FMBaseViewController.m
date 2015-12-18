@@ -42,7 +42,7 @@
 - (UITableView*)tableView
 {
     if (_tableView == nil) {
-        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds];
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
         _tableView.dataSource = self;
         _tableView.delegate   = self;
     }
@@ -55,6 +55,7 @@
     [MMProgressHUD showWithTitle:@"全力加载中"];
     
     FMNetEngine * netEngine = [[FMConfigration sharedInstance] configrationOfKey:[self fetchEngineConfigrationKey]];
+    netEngine.delegate = self;
     [netEngine fetchNetworkData];
     [MMProgressHUD dismissWithSuccess:@"加载结束"];
 }
