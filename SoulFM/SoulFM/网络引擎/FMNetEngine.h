@@ -8,26 +8,28 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString * const kRequestMethodKey = @"requestMethodKey";
+static NSString * const kRequestUrlKey    = @"requestUrl";
+
+
 typedef void(^SuccessBlockType) (id object);
 typedef void(^FailedBlockType)  (NSError *error);
-
-typedef NS_ENUM(NSInteger,FMFetchMethod){
-    GET  = 0,
-    POST = 1
-};
 
 @protocol FMNetEngineDelegate;
 @interface FMNetEngine : NSObject
 
-@property(nonatomic,assign)FMFetchMethod  method;
-@property(nonatomic,copy)NSString         *url;
-@property(nonatomic,copy)NSDictionary     *paramter;
+@property(nonatomic)NSMutableDictionary     *paramter;
 @property(nonatomic,copy)SuccessBlockType successBlock;
 @property(nonatomic,copy)FailedBlockType  faliedBlock;
 
 @property(nonatomic,weak)id<FMNetEngineDelegate> delegate;
 
+//配置参数信息
+- (void)setRequestValue:(id)object forKey:(NSString*)key;
+
 //配置数据
+- (void)customFetchParameter;
 - (void)fetchNetworkData;
+
 
 @end

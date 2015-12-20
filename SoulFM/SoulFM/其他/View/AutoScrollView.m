@@ -88,9 +88,9 @@
 
 - (void)createContentViews
 {
-    _leftImageView = [[UIImageView alloc]initWithFrame:CGRectZero];
+    _leftImageView   = [[UIImageView alloc]initWithFrame:CGRectZero];
     _centerImageView = [[UIImageView alloc]initWithFrame:CGRectZero];
-    _rightImageView = [[UIImageView alloc]initWithFrame:CGRectZero];
+    _rightImageView  = [[UIImageView alloc]initWithFrame:CGRectZero];
     
     [_scrollView addSubview:_leftImageView];
     [_scrollView addSubview:_centerImageView];
@@ -151,8 +151,6 @@
     }
 
     [self updateImageContent];
-    
-    //[_scrollView setContentOffset:CGPointMake(self.frame.size.width, 0) animated:NO];
     [_scrollView setContentOffset:CGPointMake(self.frame.size.width, 0) animated:NO];
     _pageController.currentPage = _centerImageView.tag;
 }

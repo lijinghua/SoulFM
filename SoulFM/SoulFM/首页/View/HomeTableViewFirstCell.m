@@ -30,9 +30,6 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    //_autoScrollView.frame = CGRectMake(0, 0, kScreenWidth, self.bounds.size.height);
-    _autoScrollView.backgroundColor = [UIColor blueColor];
-    NSLog(@"---%@",NSStringFromCGRect(_autoScrollView.frame));
 }
 
 - (void)upateWithModelArray:(NSArray*)modelArray;

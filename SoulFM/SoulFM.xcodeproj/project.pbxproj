@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		09606DFB9D79ED1FE7D941C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E876286C586B46F44F5E159A /* libPods.a */; };
+		972A24F31C24E13700177B7A /* FMItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972A24F11C24E13700177B7A /* FMItemListTableViewController.m */; };
+		972A24F41C24E13700177B7A /* FMItemListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972A24F21C24E13700177B7A /* FMItemListTableViewController.xib */; };
+		972A24F81C24E1AF00177B7A /* FMContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972A24F61C24E1AF00177B7A /* FMContentViewController.m */; };
+		972A24F91C24E1AF00177B7A /* FMContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972A24F71C24E1AF00177B7A /* FMContentViewController.xib */; };
+		972A24FD1C24E21900177B7A /* FMReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972A24FB1C24E21900177B7A /* FMReaderViewController.m */; };
+		972A24FE1C24E21900177B7A /* FMReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972A24FC1C24E21900177B7A /* FMReaderViewController.xib */; };
+		972A25031C24F30B00177B7A /* FMItemListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 972A25011C24F30B00177B7A /* FMItemListTableViewCell.m */; };
+		972A25041C24F30B00177B7A /* FMItemListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972A25021C24F30B00177B7A /* FMItemListTableViewCell.xib */; };
+		972A25071C24F6C500177B7A /* ItemListDataEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 972A25061C24F6C500177B7A /* ItemListDataEngine.m */; };
 		975D6D281C17D2420042533C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D271C17D2420042533C /* main.m */; };
 		975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D2A1C17D2420042533C /* AppDelegate.m */; };
 		975D6D331C17D2420042533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975D6D321C17D2420042533C /* Assets.xcassets */; };
@@ -125,7 +134,6 @@
 		977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F21C21493C002A7EC1 /* HotFMModel.m */; };
 		977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F51C21495D002A7EC1 /* DianTaiModel.m */; };
 		977F80F91C214977002A7EC1 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80F81C214977002A7EC1 /* UserModel.m */; };
-		977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F80FB1C214C9B002A7EC1 /* TopDianModel.m */; };
 		977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81051C2154A4002A7EC1 /* HomeModel.m */; };
 		977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F81081C215802002A7EC1 /* TuiJianModel.m */; };
 		977F81301C21A1F9002A7EC1 /* HomeTableViewFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F812F1C21A1F9002A7EC1 /* HomeTableViewFirstCell.m */; };
@@ -159,6 +167,20 @@
 /* Begin PBXFileReference section */
 		2CFFAF22A9178386E6859EA4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7D22D65FB9A69EE4D7B5A2F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		972A24F01C24E13700177B7A /* FMItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMItemListTableViewController.h; sourceTree = "<group>"; };
+		972A24F11C24E13700177B7A /* FMItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMItemListTableViewController.m; sourceTree = "<group>"; };
+		972A24F21C24E13700177B7A /* FMItemListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMItemListTableViewController.xib; sourceTree = "<group>"; };
+		972A24F51C24E1AF00177B7A /* FMContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMContentViewController.h; sourceTree = "<group>"; };
+		972A24F61C24E1AF00177B7A /* FMContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMContentViewController.m; sourceTree = "<group>"; };
+		972A24F71C24E1AF00177B7A /* FMContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMContentViewController.xib; sourceTree = "<group>"; };
+		972A24FA1C24E21900177B7A /* FMReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMReaderViewController.h; sourceTree = "<group>"; };
+		972A24FB1C24E21900177B7A /* FMReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMReaderViewController.m; sourceTree = "<group>"; };
+		972A24FC1C24E21900177B7A /* FMReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMReaderViewController.xib; sourceTree = "<group>"; };
+		972A25001C24F30B00177B7A /* FMItemListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMItemListTableViewCell.h; sourceTree = "<group>"; };
+		972A25011C24F30B00177B7A /* FMItemListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMItemListTableViewCell.m; sourceTree = "<group>"; };
+		972A25021C24F30B00177B7A /* FMItemListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMItemListTableViewCell.xib; sourceTree = "<group>"; };
+		972A25051C24F6C500177B7A /* ItemListDataEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListDataEngine.h; sourceTree = "<group>"; };
+		972A25061C24F6C500177B7A /* ItemListDataEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListDataEngine.m; sourceTree = "<group>"; };
 		975D6D231C17D2420042533C /* SoulFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoulFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		975D6D271C17D2420042533C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		975D6D291C17D2420042533C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -329,8 +351,6 @@
 		977F80F51C21495D002A7EC1 /* DianTaiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DianTaiModel.m; sourceTree = "<group>"; };
 		977F80F71C214977002A7EC1 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		977F80F81C214977002A7EC1 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
-		977F80FA1C214C9B002A7EC1 /* TopDianModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDianModel.h; sourceTree = "<group>"; };
-		977F80FB1C214C9B002A7EC1 /* TopDianModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDianModel.m; sourceTree = "<group>"; };
 		977F81021C214DE0002A7EC1 /* FMNewLession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNewLession.h; sourceTree = "<group>"; };
 		977F81031C214E24002A7EC1 /* FMNewFM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMNewFM.h; sourceTree = "<group>"; };
 		977F81041C2154A4002A7EC1 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
@@ -414,6 +434,16 @@
 				2CFFAF22A9178386E6859EA4 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		972A24FF1C24F24000177B7A /* 更多列表 */ = {
+			isa = PBXGroup;
+			children = (
+				972A25001C24F30B00177B7A /* FMItemListTableViewCell.h */,
+				972A25011C24F30B00177B7A /* FMItemListTableViewCell.m */,
+				972A25021C24F30B00177B7A /* FMItemListTableViewCell.xib */,
+			);
+			name = "更多列表";
 			sourceTree = "<group>";
 		};
 		975D6D1A1C17D2420042533C = {
@@ -652,6 +682,7 @@
 		977F7FBF1C20F62E002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				972A24FF1C24F24000177B7A /* 更多列表 */,
 				977F817F1C22A2FF002A7EC1 /* 头部尾部 */,
 				977F81511C2252A5002A7EC1 /* 电台 */,
 				977F81501C22528A002A7EC1 /* newFMLesson */,
@@ -668,6 +699,15 @@
 				977F80A81C20FE5F002A7EC1 /* HomeViewController.h */,
 				977F80A91C20FE5F002A7EC1 /* HomeViewController.m */,
 				977F80AA1C20FE5F002A7EC1 /* HomeViewController.xib */,
+				972A24F01C24E13700177B7A /* FMItemListTableViewController.h */,
+				972A24F11C24E13700177B7A /* FMItemListTableViewController.m */,
+				972A24F21C24E13700177B7A /* FMItemListTableViewController.xib */,
+				972A24F51C24E1AF00177B7A /* FMContentViewController.h */,
+				972A24F61C24E1AF00177B7A /* FMContentViewController.m */,
+				972A24F71C24E1AF00177B7A /* FMContentViewController.xib */,
+				972A24FA1C24E21900177B7A /* FMReaderViewController.h */,
+				972A24FB1C24E21900177B7A /* FMReaderViewController.m */,
+				972A24FC1C24E21900177B7A /* FMReaderViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -931,6 +971,8 @@
 				977F80DE1C213C5D002A7EC1 /* HomeNetEngine.h */,
 				977F80DF1C213C5D002A7EC1 /* HomeNetEngine.m */,
 				977F812D1C219F2E002A7EC1 /* FMNetEngineDelegate.h */,
+				972A25051C24F6C500177B7A /* ItemListDataEngine.h */,
+				972A25061C24F6C500177B7A /* ItemListDataEngine.m */,
 			);
 			path = "网络引擎";
 			sourceTree = "<group>";
@@ -940,8 +982,6 @@
 			children = (
 				977F80F11C21493C002A7EC1 /* HotFMModel.h */,
 				977F80F21C21493C002A7EC1 /* HotFMModel.m */,
-				977F80F41C21495D002A7EC1 /* DianTaiModel.h */,
-				977F80F51C21495D002A7EC1 /* DianTaiModel.m */,
 				977F80F71C214977002A7EC1 /* UserModel.h */,
 				977F80F81C214977002A7EC1 /* UserModel.m */,
 			);
@@ -951,8 +991,8 @@
 		977F80FD1C214CFC002A7EC1 /* diantai */ = {
 			isa = PBXGroup;
 			children = (
-				977F80FA1C214C9B002A7EC1 /* TopDianModel.h */,
-				977F80FB1C214C9B002A7EC1 /* TopDianModel.m */,
+				977F80F41C21495D002A7EC1 /* DianTaiModel.h */,
+				977F80F51C21495D002A7EC1 /* DianTaiModel.m */,
 			);
 			name = diantai;
 			sourceTree = "<group>";
@@ -1176,6 +1216,7 @@
 				977F805C1C20F96E002A7EC1 /* pinglunButton.png in Resources */,
 				977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */,
 				977F80371C20F96E002A7EC1 /* scene5.png in Resources */,
+				972A25041C24F30B00177B7A /* FMItemListTableViewCell.xib in Resources */,
 				977F80521C20F96E002A7EC1 /* littlePlaying1@2x.png in Resources */,
 				977F80641C20F96E002A7EC1 /* shouyeBg.png in Resources */,
 				977F80411C20F96E002A7EC1 /* shequSelectedXiong1@2x.png in Resources */,
@@ -1192,9 +1233,11 @@
 				977F80581C20F96E002A7EC1 /* loadMoreGift.png in Resources */,
 				977F80571C20F96E002A7EC1 /* littlePlaying6@2x.png in Resources */,
 				977F80331C20F96E002A7EC1 /* scene1.png in Resources */,
+				972A24F91C24E1AF00177B7A /* FMContentViewController.xib in Resources */,
 				977F80A01C20FDB5002A7EC1 /* Itemslist.plist in Resources */,
 				977F804E1C20F96E002A7EC1 /* littlePaused3@2x.png in Resources */,
 				977F81421C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib in Resources */,
+				972A24FE1C24E21900177B7A /* FMReaderViewController.xib in Resources */,
 				977F804C1C20F96E002A7EC1 /* littlePaused1@2x.png in Resources */,
 				977F802A1C20F96E002A7EC1 /* emotion1.png in Resources */,
 				975D6D331C17D2420042533C /* Assets.xcassets in Resources */,
@@ -1231,6 +1274,7 @@
 				977F80601C20F96E002A7EC1 /* readercell_share_normal.png in Resources */,
 				977F80591C20F96E002A7EC1 /* menglayer.png in Resources */,
 				977F80441C20F96E002A7EC1 /* shezhiXiong1@2x.png in Resources */,
+				972A24F41C24E13700177B7A /* FMItemListTableViewController.xib in Resources */,
 				977F80541C20F96E002A7EC1 /* littlePlaying3@2x.png in Resources */,
 				977F80D61C212FF5002A7EC1 /* xiong4.7.png in Resources */,
 				977F805D1C20F96E002A7EC1 /* play.png in Resources */,
@@ -1307,7 +1351,6 @@
 				975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */,
 				977F80931C20FBA9002A7EC1 /* MMProgressHUDViewController.m in Sources */,
 				977F81791C226E5A002A7EC1 /* MASViewAttribute.m in Sources */,
-				977F80FC1C214C9B002A7EC1 /* TopDianModel.m in Sources */,
 				977F817D1C226E5A002A7EC1 /* View+MASAdditions.m in Sources */,
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
@@ -1318,6 +1361,7 @@
 				977F817B1C226E5A002A7EC1 /* NSArray+MASAdditions.m in Sources */,
 				977F81771C226E5A002A7EC1 /* MASConstraintMaker.m in Sources */,
 				977F80981C20FBA9002A7EC1 /* FBShimmeringView.m in Sources */,
+				972A24F31C24E13700177B7A /* FMItemListTableViewController.m in Sources */,
 				977F80C51C210369002A7EC1 /* FMBaseModel.m in Sources */,
 				977F81411C21A445002A7EC1 /* HomeTableViewFoutFiveCell.m in Sources */,
 				977F7FE11C20F91F002A7EC1 /* JHRefreshConfig.m in Sources */,
@@ -1338,11 +1382,14 @@
 				977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
+				972A24FD1C24E21900177B7A /* FMReaderViewController.m in Sources */,
 				977F817E1C226E5A002A7EC1 /* ViewController+MASAdditions.m in Sources */,
 				977F809A1C20FBA9002A7EC1 /* WSIndefiniteAnimationView.m in Sources */,
+				972A25071C24F6C500177B7A /* ItemListDataEngine.m in Sources */,
 				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
 				977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */,
 				977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */,
+				972A24F81C24E1AF00177B7A /* FMContentViewController.m in Sources */,
 				977F81301C21A1F9002A7EC1 /* HomeTableViewFirstCell.m in Sources */,
 				977F7FE31C20F91F002A7EC1 /* JHRefreshHeaderView.m in Sources */,
 				977F81061C2154A4002A7EC1 /* HomeModel.m in Sources */,
@@ -1351,6 +1398,7 @@
 				977F80991C20FBA9002A7EC1 /* MMMaterialDesignSpinner.m in Sources */,
 				977F808D1C20FBA9002A7EC1 /* MMHud.m in Sources */,
 				977F81751C226E5A002A7EC1 /* MASCompositeConstraint.m in Sources */,
+				972A25031C24F30B00177B7A /* FMItemListTableViewCell.m in Sources */,
 				977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */,
 				977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */,
 				977F81331C21A2F0002A7EC1 /* AutoScrollView.m in Sources */,

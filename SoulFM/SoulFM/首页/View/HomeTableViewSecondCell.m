@@ -9,7 +9,7 @@
 #import "HomeTableViewSecondCell.h"
 #import "HomeCategoryCollectionViewCell.h"
 #import "Catagory.h"
-
+#import "FMItemListTableViewController.h"
 
 @implementation HomeTableViewSecondCell
 
@@ -29,10 +29,21 @@
 
 - (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HomeCategoryCollectionViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:kCollectionCellId forIndexPath:indexPath];
+    
     Catagory *categoryModel = [self.dataSourceArray objectAtIndex:indexPath.item];
     [cell.titleLabel setFont:[UIFont systemFontOfSize:11]];
     [cell updateWithImageName:categoryModel.cover title:categoryModel.name];
     return cell;
+}
+
+
+- (void)didSelectModel:(JSONModel *)model
+{
+    FMItemListTableViewController *itemListViewController = [[FMItemListTableViewController alloc]initWithCategory:COMMON];
+    itemListViewController.model = (Catagory*)model;
+    itemListViewController.hidesBottomBarWhenPushed = YES;
+    UIViewController *respondViewController = [FMUtil firstResondViewController:self];
+    [respondViewController.navigationController pushViewController:itemListViewController animated:YES];
 }
 
 @end

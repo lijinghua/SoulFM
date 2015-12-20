@@ -13,4 +13,12 @@
 #define  kScreenWidth   SCREEN_RECT.size.width
 #define  kScreenHeight  SCREEN_RECT.size.height
 
+
+typedef NS_ENUM(NSInteger,FMCategoryType) {
+    COMMON           = 1,
+    MORE_PSYCHOLOGY  = 2,
+    MORE_FM          = 3,
+    MORE_DIANTAI     = 4,
+};
+
 #endif /* FMCommonDefine_h */

@@ -14,6 +14,6 @@
 @protocol FMNetEngineDelegate <NSObject>
 
 //网络引擎代理
-- (void)netEngine:(FMNetEngine*)engine dataSource:(JSONModel*)model;
+- (void)netEngine:(FMNetEngine*)engine dataSource:(id)dataSource;
 
 @end

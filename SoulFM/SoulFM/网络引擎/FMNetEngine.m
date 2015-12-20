@@ -16,11 +16,11 @@
 @implementation FMNetEngine
 
 
-
 - (id)init{
     if (self = [super init]) {
         _opManager = [[AFHTTPRequestOperationManager alloc]init];
         _opManager.securityPolicy = [AFSecurityPolicy defaultPolicy];
+        _paramter = [[NSMutableDictionary alloc]init];
     }
     return self;
 }
@@ -30,11 +30,34 @@
     [self excute];
 }
 
-//子类重写
-- (void)customFetchParameter{}
+- (void)setRequestValue:(id)parameterObject forKey:(NSString*)key
+{
+    if (parameterObject != nil && key != nil) {
+        [_paramter setObject:parameterObject forKey:key];
+    }
+}
+
+
+//子类解析数据
+- (id)parseResondData:(id)respondObject{
+    return nil;
+}
+
+
+- (void)customFetchParameter{
+    typeof(self) weakSelf = self;
+    self.successBlock = ^(id respondObject){
+        if ([weakSelf.delegate respondsToSelector:@selector(netEngine:dataSource:)]) {
+            [weakSelf.delegate netEngine:weakSelf dataSource:[weakSelf parseResondData:respondObject]];
+        }
+    };
+    
+    self.faliedBlock = ^(NSError *error){
+    };
+}
 
 - (void)GET{
-    [self.opManager GET:[self.url urlEncode] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [self.opManager GET:[[self.paramter objectForKey:kRequestUrlKey] urlEncode] parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (self.successBlock) {
             self.successBlock(responseObject);
         }
@@ -46,7 +69,7 @@
 }
 
 - (void)POST{
-    [self.opManager POST:[self.url urlEncode] parameters:self.paramter success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [self.opManager POST:[[self.paramter objectForKey:kRequestUrlKey] urlEncode] parameters:self.paramter success:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (self.successBlock) {
             self.successBlock(responseObject);
         }
@@ -59,7 +82,7 @@
 
 - (void)excute
 {
-    if(self.method == GET){
+    if([[self.paramter objectForKey:kRequestMethodKey] isEqualToString:@"GET"]){
         [self GET];
     }else{
         [self POST];

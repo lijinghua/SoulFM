@@ -14,7 +14,8 @@
 
 - (void)setColor:(UIColor*)color title:(NSString*)title
 {
-    
+    self.colorView.backgroundColor = color;
+    self.titleLabel.text = title;
 }
 /*
 // Only override drawRect: if you perform custom drawing.

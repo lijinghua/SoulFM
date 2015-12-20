@@ -9,6 +9,7 @@
 #import "HomeTableViewThirdCell.h"
 #import "HomeCategoryCollectionViewCell.h"
 #import "HotFMModel.h"
+#import "FMContentViewController.h"
 
 @implementation HomeTableViewThirdCell
 
@@ -27,6 +28,14 @@
     cell.titleLabel.font = [UIFont systemFontOfSize:11];
     [cell updateWithImageName:model.cover title:model.title];
     return cell;
+}
+
+- (void)didSelectModel:(JSONModel *)model{
+    FMContentViewController *contentViewController = [[FMContentViewController alloc]init];
+    contentViewController.hidesBottomBarWhenPushed = YES;
+    contentViewController.model = (HotFMModel*)model;
+    UIViewController *resondViewController = [FMUtil firstResondViewController:self];
+    [resondViewController.navigationController pushViewController:contentViewController animated:YES];
 }
 
 

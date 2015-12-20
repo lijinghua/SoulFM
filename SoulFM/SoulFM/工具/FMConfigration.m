@@ -32,6 +32,7 @@
     if (self = [super init]) {
         self.dicConfig = [NSMutableDictionary dictionary];
         [self.dicConfig setValue:@"HomeNetEngine" forKey:kHomeDataEngine];
+        [self.dicConfig setValue:@"ItemListDataEngine" forKey:kFMItemListDataEngine];
     }
     return self;
 }

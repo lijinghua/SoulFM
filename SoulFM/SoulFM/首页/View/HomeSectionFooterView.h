@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeSectionFooterView : UIView
+@property (weak, nonatomic) IBOutlet UIImageView *indicatorView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
+- (void)setHomeFootTitle:(NSString*)title;
 @end

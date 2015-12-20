@@ -18,4 +18,6 @@ extern NSString *const kCollectionCellId;
 
 - (void)updateWithModelArray:(NSArray*)array;
 
+- (void)didSelectModel:(JSONModel*)model;
+
 @end

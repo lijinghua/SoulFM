@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-static NSString * kHomeDataEngine = @"homeDataEngine";
+static NSString * kHomeDataEngine       = @"homeDataEngine";
+static NSString * kFMItemListDataEngine = @"itemListDateEngine";
 
 @interface FMConfigration : NSObject
 

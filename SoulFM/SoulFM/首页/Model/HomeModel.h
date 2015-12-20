@@ -12,7 +12,6 @@
 #import "FMNewLession.h"
 #import "DianTaiModel.h"
 #import "Catagory.h"
-#import "TopDianModel.h"
 #import "TuiJianModel.h"
 
 @protocol HomeModel @end
@@ -23,7 +22,7 @@
 @property(nonatomic)NSArray<HotFMModel>        *newfm;
 @property(nonatomic)NSArray<HotFMModel>        *hotfm;
 @property(nonatomic)NSArray<Catagory>          *category;
-@property(nonatomic)NSArray<TopDianModel>      *diantai;
+@property(nonatomic)NSArray<DianTaiModel>      *diantai;
 
 
 - (NSArray*)allModelForKey:(NSString*)modelKey;

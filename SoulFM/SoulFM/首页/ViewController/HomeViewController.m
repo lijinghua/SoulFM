@@ -16,6 +16,7 @@
 #import "HomeTableViewSixCell.h"
 #import "HomeSectionHeaderView.h"
 #import "HomeSectionFooterView.h"
+#import "FMItemListTableViewController.h"
 
 static NSString * const kTableViewFirstCellId    = @"firstCellId";
 static NSString * const kTableViewSecondCellId   = @"secondCellId";
@@ -40,7 +41,6 @@ NSString * const kDianTaiModelKey         = @"diantai";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //self.navigationController.navigationBar.translucent = YES;
     self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
@@ -90,6 +90,31 @@ NSString * const kDianTaiModelKey         = @"diantai";
     if (section == 5) return kTableViewSixCellId;
     return nil;
 }
+
+- (UIColor*)headHintColorOfSecton:(NSInteger)section{
+    if (section == 2) return [UIColor purpleColor];
+    if (section == 3) return [UIColor greenColor];
+    if (section == 4) return [UIColor orangeColor];
+    if (section == 5) return [UIColor blackColor];
+    return nil;
+}
+
+- (NSString*)headTitleOfSection:(NSInteger)section{
+    if (section == 2) return @" 热门推荐";
+    if (section == 3) return @" 最新心理课";
+    if (section == 4) return @" 最新FM";
+    if (section == 5) return @" 心理电台推荐";
+    return nil;
+}
+
+- (NSString*)footTitleOfSection:(NSInteger)section{
+    if (section == 2) return @" 热门推荐";
+    if (section == 3) return @" 最新心理课";
+    if (section == 4) return @" 最新FM";
+    if (section == 5) return @" 心理电台推荐";
+    return nil;
+}
+
 
 #pragma mark - UITableView代理
 
@@ -165,36 +190,70 @@ NSString * const kDianTaiModelKey         = @"diantai";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     if (section == 0 || section == 1) {
-        return 0;
+        return 0.01;
     }
-    return 40;
+    return 35;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     if (section == 0 || section == 1 || section == 2) {
-        return 0;
+        return 0.01;
     }
     return 30;
 }
 
+
 - (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    if (section < 2) {
+        return nil;
+    }
     UINib *nib = [UINib nibWithNibName:@"HomeSectionHeaderView" bundle:nil];
     HomeSectionHeaderView *headView = (HomeSectionHeaderView*)[[nib instantiateWithOwner:nil options:nil] firstObject];
+    [headView setColor:[self headHintColorOfSecton:section] title:[self headTitleOfSection:section]];
     return headView;
 }
 
 - (UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    if (section < 3) {
+        return nil;
+    }
     UINib *nib = [UINib nibWithNibName:@"HomeSectionFooterView" bundle:nil];
     HomeSectionFooterView *footView = (HomeSectionFooterView*)[[nib instantiateWithOwner:nil options:nil] firstObject];
+    [footView setHomeFootTitle:[self footTitleOfSection:section]];
+    footView.tag = section;
+    [self addTapGestureOnFootView:footView];
     return footView;
+    
 }
 
 #pragma mark - FMNetEngineDelegate
-- (void)netEngine:(FMNetEngine *)engine dataSource:(JSONModel *)model
+- (void)netEngine:(FMNetEngine *)engine dataSource:(id)dataSource
 {
-    self.homeModel = (HomeModel*)model;
+    self.homeModel = (HomeModel*)dataSource;
     [self.tableView reloadData];
 }
+
+
+- (void)addTapGestureOnFootView:(UIView*)footView{
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(handleTapGesture:)];
+    [footView addGestureRecognizer:tapGestureRecognizer];
+}
+
+- (void)handleTapGesture:(UITapGestureRecognizer*)gestrue
+{
+    UIView *targetView = gestrue.view;
+    FMItemListTableViewController *itemListViewController = [[FMItemListTableViewController alloc]initWithCategory:[self categoryOfSection:targetView.tag]];
+    [self.navigationController pushViewController:itemListViewController animated:YES];
+}
+
+- (FMCategoryType)categoryOfSection:(NSInteger)section
+{
+    if (section == 3) return MORE_PSYCHOLOGY;
+    if (section == 4) return MORE_FM;
+    if (section == 5) return MORE_DIANTAI;
+    return 0;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -9,7 +9,7 @@
 #import "HomeTableViewSixCell.h"
 #import "HomeCategoryCollectionViewCell.h"
 #import "DianTaiModel.h"
-
+#import "FMReaderViewController.h"
 
 @implementation HomeTableViewSixCell
 
@@ -31,11 +31,20 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HomeCategoryCollectionViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:kCollectionCellId forIndexPath:indexPath];
-      DianTaiModel *model = [self.dataSourceArray objectAtIndex:indexPath.item];
+    DianTaiModel *model = [self.dataSourceArray objectAtIndex:indexPath.item];
     [cell setShowCirlce:YES];
     cell.titleLabel.font = [UIFont systemFontOfSize:11];
     [cell updateWithImageName:model.cover title:model.title];
     return cell;
+}
+
+- (void)didSelectModel:(JSONModel *)model
+{
+    FMReaderViewController *readerViewController = [[FMReaderViewController alloc]init];
+    readerViewController.hidesBottomBarWhenPushed = YES;
+    readerViewController.model = (DianTaiModel*)model;
+    UIViewController *viewController = [FMUtil firstResondViewController:self];
+    [viewController.navigationController pushViewController:readerViewController animated:YES];
 }
 
 @end

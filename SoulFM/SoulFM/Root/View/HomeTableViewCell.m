@@ -70,5 +70,14 @@ NSString *const kCollectionCellId = @"collectionCellId";
     return nil;
 }
 
+//选中其中一个
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    JSONModel *jsonModel = [self.dataSourceArray objectAtIndex:indexPath.row];
+    [self didSelectModel:jsonModel];
+}
+
+- (void)didSelectModel:(JSONModel*)model{
+    //子类定制
+}
 
 @end
