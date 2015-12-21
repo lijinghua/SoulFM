@@ -43,7 +43,7 @@
                 <outlet property="iconImageView" destination="9qu-Vy-78w" id="Eqn-Kg-cbL"/>
                 <outlet property="titleLabel" destination="LU7-k9-lNR" id="E4G-Rj-bXq"/>
             </connections>
-            <point key="canvasLocation" x="-505.5" y="153"/>
+            <point key="canvasLocation" x="-557.5" y="155"/>
         </collectionViewCell>
     </objects>
 </document>

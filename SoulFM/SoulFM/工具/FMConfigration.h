@@ -10,6 +10,7 @@
 
 static NSString * kHomeDataEngine       = @"homeDataEngine";
 static NSString * kFMItemListDataEngine = @"itemListDateEngine";
+static NSString * kFMContentConfigKey   = @"fmContentEngine";
 
 @interface FMConfigration : NSObject
 

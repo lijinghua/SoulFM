@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FMContentHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="457"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ZvL-hV-owX">
+                    <rect key="frame" x="0.0" y="0.0" width="341" height="377"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xBl-ly-5u7">
+                    <rect key="frame" x="13" y="344" width="170" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JcO-De-uFz">
+                    <rect key="frame" x="82" y="376" width="62" height="59"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <state key="normal" title="Button" image="pre.png"/>
+                    <connections>
+                        <action selector="playPreContent:" destination="iN0-l3-epB" eventType="touchUpInside" id="ySp-kr-dzp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KBX-lb-Cej">
+                    <rect key="frame" x="143" y="378" width="55" height="57"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <state key="normal" title="Button" image="pause.png"/>
+                    <connections>
+                        <action selector="playPauseContent:" destination="iN0-l3-epB" eventType="touchUpInside" id="FpO-uI-eHn"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="Jfy-JH-QVK">
+                    <rect key="frame" x="-2" y="428" width="345" height="31"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XIV-Wa-2ce">
+                    <rect key="frame" x="232" y="346" width="95" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="urX-dr-A9B">
+                    <rect key="frame" x="196" y="372" width="65" height="69"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <state key="normal" image="next.png"/>
+                    <connections>
+                        <action selector="playNextContent:" destination="iN0-l3-epB" eventType="touchUpInside" id="BKA-dZ-8L1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentImageView" destination="ZvL-hV-owX" id="Taz-4A-dN4"/>
+                <outlet property="playButton" destination="KBX-lb-Cej" id="jAZ-NJ-B30"/>
+                <outlet property="slider" destination="Jfy-JH-QVK" id="B2r-me-uBu"/>
+                <outlet property="titleLabel" destination="xBl-ly-5u7" id="rel-H9-Raa"/>
+                <outlet property="viewNumberLabel" destination="XIV-Wa-2ce" id="WWU-sq-zfL"/>
+            </connections>
+            <point key="canvasLocation" x="167.5" y="218.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="next.png" width="100" height="100"/>
+        <image name="pause.png" width="100" height="100"/>
+        <image name="pre.png" width="100" height="100"/>
+    </resources>
+</document>

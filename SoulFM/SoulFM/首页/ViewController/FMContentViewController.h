@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "HotFMModel.h"
+#import "FMBaseViewController.h"
 
-@interface FMContentViewController : UIViewController
-@property(nonatomic)HotFMModel *model;
+
+@interface FMContentViewController : FMBaseViewController
+
+@property(nonatomic)NSArray       *modelArray;
+@property(nonatomic)NSInteger      currentIndex;
+
 @end

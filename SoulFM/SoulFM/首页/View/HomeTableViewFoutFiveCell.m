@@ -25,7 +25,8 @@
 - (void)handleTapGestrue:(UITapGestureRecognizer*)gesture{
     FMContentViewController *contentViewController = [[FMContentViewController alloc]init];
     contentViewController.hidesBottomBarWhenPushed = YES;
-    contentViewController.model = self.model;
+    //contentViewController.model = self.model;
+    //contentViewController.modelArray = self.dataSource;
     UIViewController * controller = [FMUtil firstResondViewController:self];
     [controller.navigationController pushViewController:contentViewController animated:YES];
 }

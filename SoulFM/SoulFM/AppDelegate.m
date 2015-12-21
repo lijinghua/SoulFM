@@ -42,7 +42,6 @@
     
     [UIView animateWithDuration:3 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{
         niceView.transform = CGAffineTransformMakeScale(1.3, 1.3);
-        niceView.alpha = 0.3;
     } completion:^(BOOL finished) {
         [niceView removeFromSuperview];
         [self startMonitorNetwork];

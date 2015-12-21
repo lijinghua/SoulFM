@@ -33,7 +33,8 @@
 - (void)didSelectModel:(JSONModel *)model{
     FMContentViewController *contentViewController = [[FMContentViewController alloc]init];
     contentViewController.hidesBottomBarWhenPushed = YES;
-    contentViewController.model = (HotFMModel*)model;
+    contentViewController.modelArray = (NSArray*)self.dataSourceArray;
+    contentViewController.currentIndex = [self.dataSourceArray indexOfObject:model];
     UIViewController *resondViewController = [FMUtil firstResondViewController:self];
     [resondViewController.navigationController pushViewController:contentViewController animated:YES];
 }

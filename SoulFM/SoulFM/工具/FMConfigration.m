@@ -33,6 +33,7 @@
         self.dicConfig = [NSMutableDictionary dictionary];
         [self.dicConfig setValue:@"HomeNetEngine" forKey:kHomeDataEngine];
         [self.dicConfig setValue:@"ItemListDataEngine" forKey:kFMItemListDataEngine];
+        [self.dicConfig setValue:@"FMContentNetEngine" forKey:kFMContentConfigKey];
     }
     return self;
 }
