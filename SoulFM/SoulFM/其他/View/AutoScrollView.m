@@ -24,6 +24,14 @@
 
 @implementation AutoScrollView
 
+- (id)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        NSLog(@"initWithFrame");
+    }
+    return self;
+}
+
+
 - (id)initWithFrame:(CGRect)frame imageArray:(NSArray*)imageArray
 {
     if (self = [super initWithFrame:frame]) {
@@ -53,6 +61,7 @@
     
     [self updateImageContent];
     [self startTimer];
+    [self setNeedsLayout];
 }
 
 - (void)updateImageContent{

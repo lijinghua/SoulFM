@@ -10,6 +10,8 @@
 #import "FMContentViewController.h"
 @interface HomeTableViewFoutFiveCell()
 @property (nonatomic)HotFMModel *model;
+@property (nonatomic)NSArray    *modelList;
+@property (nonatomic)NSInteger  currentIndex;
 @property (weak, nonatomic) IBOutlet UILabel *speakerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *coverImageView;
@@ -25,18 +27,21 @@
 - (void)handleTapGestrue:(UITapGestureRecognizer*)gesture{
     FMContentViewController *contentViewController = [[FMContentViewController alloc]init];
     contentViewController.hidesBottomBarWhenPushed = YES;
-    //contentViewController.model = self.model;
-    //contentViewController.modelArray = self.dataSource;
+    contentViewController.modelArray   = self.modelList;
+    contentViewController.currentIndex = self.currentIndex;
     UIViewController * controller = [FMUtil firstResondViewController:self];
     [controller.navigationController pushViewController:contentViewController animated:YES];
 }
 
-- (void)updateWithModel:(HotFMModel*)model
+- (void)updateWithModelAtIndex:(NSInteger)index ofArray:(NSArray*)array
 {
-    self.model = model;
-    [self.coverImageView sd_setImageWithURL:[NSURL URLWithString:model.cover] placeholderImage:nil];
-    self.titleLabel.text = model.title;
-    self.speakerLabel.text = model.speak;
+    self.currentIndex = index;
+    self.modelList = array;
+    
+    self.model = [array objectAtIndex:index];
+    [self.coverImageView sd_setImageWithURL:[NSURL URLWithString:self.model.cover] placeholderImage:nil];
+    self.titleLabel.text = self.model.title;
+    self.speakerLabel.text = self.model.speak;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

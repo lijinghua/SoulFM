@@ -166,8 +166,8 @@ NSString * const kDianTaiModelKey         = @"diantai";
     NSString *cellIdentify = [self cellIndentifyAtIndex:indexPath.section];
     HomeTableViewFoutFiveCell *cell = [self.tableView dequeueReusableCellWithIdentifier:cellIdentify];
     NSArray *array = [self.homeModel allModelForKey:[self.modelKeyArray objectAtIndex:indexPath.section]];
-    HotFMModel *model = [array objectAtIndex:indexPath.row];
-    [cell updateWithModel:model];
+    //HotFMModel *model = [array objectAtIndex:indexPath.row];
+    [cell updateWithModelAtIndex:indexPath.row ofArray:array];
     return cell;
 }
 

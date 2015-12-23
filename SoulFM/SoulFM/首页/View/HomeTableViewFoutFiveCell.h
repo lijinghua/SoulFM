@@ -11,6 +11,6 @@
 
 @interface HomeTableViewFoutFiveCell : UITableViewCell
 
-- (void)updateWithModel:(HotFMModel*)model;
+- (void)updateWithModelAtIndex:(NSInteger)index ofArray:(NSArray*)array;
 
 @end

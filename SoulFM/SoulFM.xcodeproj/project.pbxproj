@@ -20,6 +20,15 @@
 		975D6D281C17D2420042533C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D271C17D2420042533C /* main.m */; };
 		975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975D6D2A1C17D2420042533C /* AppDelegate.m */; };
 		975D6D331C17D2420042533C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975D6D321C17D2420042533C /* Assets.xcassets */; };
+		976CAB281C2A6EA100F57FD9 /* DiscoverHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB271C2A6EA100F57FD9 /* DiscoverHeadView.m */; };
+		976CAB2A1C2A6EB400F57FD9 /* DiscoverHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976CAB291C2A6EB400F57FD9 /* DiscoverHeadView.xib */; };
+		976CAB2E1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB2C1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.m */; };
+		976CAB2F1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976CAB2D1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib */; };
+		976CAB331C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB311C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.m */; };
+		976CAB341C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 976CAB321C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.xib */; };
+		976CAB371C2A7E1400F57FD9 /* FMDiscoverNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB361C2A7E1400F57FD9 /* FMDiscoverNetEngine.m */; };
+		976CAB3A1C2A80C300F57FD9 /* FMDiscoverHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB391C2A80C300F57FD9 /* FMDiscoverHeadModel.m */; };
+		976CAB3D1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 976CAB3C1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m */; };
 		977F7FDC1C20F91F002A7EC1 /* JHRefreshAmazingAniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC51C20F91F002A7EC1 /* JHRefreshAmazingAniView.m */; };
 		977F7FDD1C20F91F002A7EC1 /* JHRefreshAniBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC71C20F91F002A7EC1 /* JHRefreshAniBaseView.m */; };
 		977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */ = {isa = PBXBuildFile; fileRef = 977F7FC91C20F91F002A7EC1 /* JHRefreshCommonAniView.m */; };
@@ -162,6 +171,8 @@
 		977F81871C22A365002A7EC1 /* HomeSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */; };
 		977F81891C22A378002A7EC1 /* HomeSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */; };
 		977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 977F818A1C22AFA6002A7EC1 /* more111@2x.png */; };
+		97AECC8A1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC881C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m */; };
+		97AECC8B1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC891C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib */; };
 		97D5C78E1C27DE5900AAC56B /* FMContentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C78D1C27DE5900AAC56B /* FMContentHeaderView.m */; };
 		97D5C7901C27DE8400AAC56B /* FMContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D5C78F1C27DE8400AAC56B /* FMContentHeaderView.xib */; };
 		97D5C7931C27EA2900AAC56B /* FMContentNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C7921C27EA2900AAC56B /* FMContentNetEngine.m */; };
@@ -199,6 +210,21 @@
 		975D6D2A1C17D2420042533C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		975D6D321C17D2420042533C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975D6D371C17D2420042533C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976CAB261C2A6EA100F57FD9 /* DiscoverHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverHeadView.h; sourceTree = "<group>"; };
+		976CAB271C2A6EA100F57FD9 /* DiscoverHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverHeadView.m; sourceTree = "<group>"; };
+		976CAB291C2A6EB400F57FD9 /* DiscoverHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverHeadView.xib; sourceTree = "<group>"; };
+		976CAB2B1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCollectionViewCellOne.h; sourceTree = "<group>"; };
+		976CAB2C1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCollectionViewCellOne.m; sourceTree = "<group>"; };
+		976CAB2D1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCollectionViewCellOne.xib; sourceTree = "<group>"; };
+		976CAB301C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCollectionViewCellTwo.h; sourceTree = "<group>"; };
+		976CAB311C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCollectionViewCellTwo.m; sourceTree = "<group>"; };
+		976CAB321C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCollectionViewCellTwo.xib; sourceTree = "<group>"; };
+		976CAB351C2A7E1400F57FD9 /* FMDiscoverNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDiscoverNetEngine.h; sourceTree = "<group>"; };
+		976CAB361C2A7E1400F57FD9 /* FMDiscoverNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDiscoverNetEngine.m; sourceTree = "<group>"; };
+		976CAB381C2A80C300F57FD9 /* FMDiscoverHeadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDiscoverHeadModel.h; sourceTree = "<group>"; };
+		976CAB391C2A80C300F57FD9 /* FMDiscoverHeadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDiscoverHeadModel.m; sourceTree = "<group>"; };
+		976CAB3B1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDiscoverMoodTroubleModel.h; sourceTree = "<group>"; };
+		976CAB3C1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDiscoverMoodTroubleModel.m; sourceTree = "<group>"; };
 		977F7FC41C20F91F002A7EC1 /* JHRefreshAmazingAniView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRefreshAmazingAniView.h; sourceTree = "<group>"; };
 		977F7FC51C20F91F002A7EC1 /* JHRefreshAmazingAniView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHRefreshAmazingAniView.m; sourceTree = "<group>"; };
 		977F7FC61C20F91F002A7EC1 /* JHRefreshAniBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHRefreshAniBaseView.h; sourceTree = "<group>"; };
@@ -421,6 +447,9 @@
 		977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionHeaderView.xib; sourceTree = "<group>"; };
 		977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionFooterView.xib; sourceTree = "<group>"; };
 		977F818A1C22AFA6002A7EC1 /* more111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more111@2x.png"; sourceTree = "<group>"; };
+		97AECC871C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCollectionSectionHeaView.h; sourceTree = "<group>"; };
+		97AECC881C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCollectionSectionHeaView.m; sourceTree = "<group>"; };
+		97AECC891C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCollectionSectionHeaView.xib; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		97D5C78C1C27DE5900AAC56B /* FMContentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMContentHeaderView.h; sourceTree = "<group>"; };
@@ -960,6 +989,10 @@
 		977F80AD1C20FE86002A7EC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				976CAB381C2A80C300F57FD9 /* FMDiscoverHeadModel.h */,
+				976CAB391C2A80C300F57FD9 /* FMDiscoverHeadModel.m */,
+				976CAB3B1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.h */,
+				976CAB3C1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -967,6 +1000,18 @@
 		977F80AE1C20FE86002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				976CAB261C2A6EA100F57FD9 /* DiscoverHeadView.h */,
+				976CAB271C2A6EA100F57FD9 /* DiscoverHeadView.m */,
+				976CAB291C2A6EB400F57FD9 /* DiscoverHeadView.xib */,
+				976CAB2B1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.h */,
+				976CAB2C1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.m */,
+				976CAB2D1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib */,
+				976CAB301C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.h */,
+				976CAB311C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.m */,
+				976CAB321C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.xib */,
+				97AECC871C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.h */,
+				97AECC881C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m */,
+				97AECC891C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1012,6 +1057,8 @@
 				972A25061C24F6C500177B7A /* ItemListDataEngine.m */,
 				97D5C7911C27EA2900AAC56B /* FMContentNetEngine.h */,
 				97D5C7921C27EA2900AAC56B /* FMContentNetEngine.m */,
+				976CAB351C2A7E1400F57FD9 /* FMDiscoverNetEngine.h */,
+				976CAB361C2A7E1400F57FD9 /* FMDiscoverNetEngine.m */,
 			);
 			path = "网络引擎";
 			sourceTree = "<group>";
@@ -1282,6 +1329,7 @@
 				977F80671C20F96E002A7EC1 /* touming.png in Resources */,
 				977F80471C20F96E002A7EC1 /* tabBg@2x.png in Resources */,
 				977F80481C20F96E002A7EC1 /* bg1.png in Resources */,
+				976CAB2F1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib in Resources */,
 				977F805C1C20F96E002A7EC1 /* pinglunButton.png in Resources */,
 				977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */,
 				977F80371C20F96E002A7EC1 /* scene5.png in Resources */,
@@ -1293,6 +1341,7 @@
 				977F80621C20F96E002A7EC1 /* searching.png in Resources */,
 				977F80551C20F96E002A7EC1 /* littlePlaying4@2x.png in Resources */,
 				977F80461C20F96E002A7EC1 /* shouyeXiong1@2x.png in Resources */,
+				976CAB2A1C2A6EB400F57FD9 /* DiscoverHeadView.xib in Resources */,
 				97D5C7AC1C2847A600AAC56B /* progress_btn.png in Resources */,
 				977F80341C20F96E002A7EC1 /* scene2.png in Resources */,
 				977F81871C22A365002A7EC1 /* HomeSectionHeaderView.xib in Resources */,
@@ -1316,6 +1365,7 @@
 				977F80381C20F96E002A7EC1 /* scene6.png in Resources */,
 				977F80631C20F96E002A7EC1 /* shenfenPic@2x.png in Resources */,
 				97D5C7AA1C2801BD00AAC56B /* UserGiftTableViewCell.xib in Resources */,
+				97AECC8B1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib in Resources */,
 				977F803F1C20F96E002A7EC1 /* mySelectedXiong1@2x.png in Resources */,
 				977F80661C20F96E002A7EC1 /* three@2x.png in Resources */,
 				977F80491C20F96E002A7EC1 /* broadcasterBack.png in Resources */,
@@ -1348,6 +1398,7 @@
 				977F80441C20F96E002A7EC1 /* shezhiXiong1@2x.png in Resources */,
 				972A24F41C24E13700177B7A /* FMItemListTableViewController.xib in Resources */,
 				977F80541C20F96E002A7EC1 /* littlePlaying3@2x.png in Resources */,
+				976CAB341C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.xib in Resources */,
 				977F80D61C212FF5002A7EC1 /* xiong4.7.png in Resources */,
 				977F805D1C20F96E002A7EC1 /* play.png in Resources */,
 				977F80311C20F96E002A7EC1 /* emotion8.png in Resources */,
@@ -1421,6 +1472,7 @@
 				977F809C1C20FBA9002A7EC1 /* WSProgressHUD.m in Sources */,
 				977F814D1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m in Sources */,
 				975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */,
+				976CAB3A1C2A80C300F57FD9 /* FMDiscoverHeadModel.m in Sources */,
 				977F80931C20FBA9002A7EC1 /* MMProgressHUDViewController.m in Sources */,
 				977F81791C226E5A002A7EC1 /* MASViewAttribute.m in Sources */,
 				97D5C7931C27EA2900AAC56B /* FMContentNetEngine.m in Sources */,
@@ -1428,6 +1480,7 @@
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
+				976CAB3D1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m in Sources */,
 				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
 				977F80F91C214977002A7EC1 /* UserModel.m in Sources */,
 				977F80951C20FBA9002A7EC1 /* MMRadialProgressView.m in Sources */,
@@ -1440,10 +1493,12 @@
 				977F7FE11C20F91F002A7EC1 /* JHRefreshConfig.m in Sources */,
 				977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */,
 				977F81581C225B10002A7EC1 /* HomeTableViewCell.m in Sources */,
+				976CAB281C2A6EA100F57FD9 /* DiscoverHeadView.m in Sources */,
 				977F7FE01C20F91F002A7EC1 /* JHRefreshBaseView.m in Sources */,
 				977F817C1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				977F80DD1C2138FF002A7EC1 /* FMNetEngine.m in Sources */,
 				977F80E91C21425B002A7EC1 /* FMConfigration.m in Sources */,
+				976CAB2E1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.m in Sources */,
 				97D5C79A1C27EE0C00AAC56B /* SpeakerModel.m in Sources */,
 				977F81761C226E5A002A7EC1 /* MASConstraint.m in Sources */,
 				977F80941C20FBA9002A7EC1 /* MMProgressHUDWindow.m in Sources */,
@@ -1455,6 +1510,7 @@
 				977F81371C21A3C4002A7EC1 /* HomeTableViewSecondCell.m in Sources */,
 				977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
+				97AECC8A1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
 				972A24FD1C24E21900177B7A /* FMReaderViewController.m in Sources */,
 				977F817E1C226E5A002A7EC1 /* ViewController+MASAdditions.m in Sources */,
@@ -1476,6 +1532,7 @@
 				977F808D1C20FBA9002A7EC1 /* MMHud.m in Sources */,
 				977F81751C226E5A002A7EC1 /* MASCompositeConstraint.m in Sources */,
 				972A25031C24F30B00177B7A /* FMItemListTableViewCell.m in Sources */,
+				976CAB331C2A77D600F57FD9 /* DiscoverCollectionViewCellTwo.m in Sources */,
 				977F80F31C21493C002A7EC1 /* HotFMModel.m in Sources */,
 				977F80B71C20FEC8002A7EC1 /* CommunityViewController.m in Sources */,
 				977F81331C21A2F0002A7EC1 /* AutoScrollView.m in Sources */,
@@ -1487,6 +1544,7 @@
 				977F81781C226E5A002A7EC1 /* MASLayoutConstraint.m in Sources */,
 				977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */,
 				977F80901C20FBA9002A7EC1 /* MMProgressHUD+Class.m in Sources */,
+				976CAB371C2A7E1400F57FD9 /* FMDiscoverNetEngine.m in Sources */,
 				977F7FE21C20F91F002A7EC1 /* JHRefreshFooterView.m in Sources */,
 				977F81851C22A349002A7EC1 /* HomeSectionFooterView.m in Sources */,
 				977F817A1C226E5A002A7EC1 /* MASViewConstraint.m in Sources */,

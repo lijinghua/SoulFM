@@ -17,6 +17,7 @@
 @property(nonatomic)FMContentHeaderView *headerView;
 @property(nonatomic)NSString *currentModelId;
 @property(nonatomic)FMContentModel *contentModel;
+@property(nonatomic)BOOL registKVO;
 @end
 
 @implementation FMContentViewController
@@ -90,11 +91,14 @@
     [[FMPlayer sharedInstance] playerFMAtUrl:self.contentModel.url];
     [[FMPlayer sharedInstance] addObserver:self forKeyPath:@"progress" options:NSKeyValueObservingOptionNew context:nil];
     [[FMPlayer sharedInstance] addObserver:self forKeyPath:@"duration" options:NSKeyValueObservingOptionNew context:nil];
+    self.registKVO = YES;
 }
 
 - (void)dealloc{
-    [[FMPlayer sharedInstance] removeObserver:self forKeyPath:@"progress"];
-    [[FMPlayer sharedInstance] removeObserver:self forKeyPath:@"duration"];
+    if (self.registKVO) {
+        [[FMPlayer sharedInstance] removeObserver:self forKeyPath:@"progress"];
+        [[FMPlayer sharedInstance] removeObserver:self forKeyPath:@"duration"];
+    }
 }
 
 #pragma mark - KVO

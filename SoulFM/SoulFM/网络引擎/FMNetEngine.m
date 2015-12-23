@@ -20,6 +20,10 @@
     if (self = [super init]) {
         _opManager = [[AFHTTPRequestOperationManager alloc]init];
         _opManager.securityPolicy = [AFSecurityPolicy defaultPolicy];
+        NSMutableSet *set = [NSMutableSet setWithSet:_opManager.responseSerializer.acceptableContentTypes];
+        [set addObject:@"text/html; charset=UTF-8"];
+        [set addObject:@"text/html"];
+        _opManager.responseSerializer.acceptableContentTypes = set;
         _paramter = [[NSMutableDictionary alloc]init];
     }
     return self;
@@ -45,6 +49,8 @@
 
 
 - (void)customFetchParameter{
+    //默认为GET 请求，子类可以重新订制
+    [self setRequestValue:@"GET" forKey:kRequestMethodKey];
     typeof(self) weakSelf = self;
     self.successBlock = ^(id respondObject){
         if ([weakSelf.delegate respondsToSelector:@selector(netEngine:dataSource:)]) {
@@ -53,6 +59,7 @@
     };
     
     self.faliedBlock = ^(NSError *error){
+        NSLog(@"网络访问异常 %@",error);
     };
 }
 
