@@ -35,6 +35,7 @@
         [self.dicConfig setValue:@"ItemListDataEngine" forKey:kFMItemListDataEngine];
         [self.dicConfig setValue:@"FMContentNetEngine" forKey:kFMContentConfigKey];
         [self.dicConfig setValue:@"FMDiscoverNetEngine" forKey:kFMDiscoverConfigKey];
+        [self.dicConfig setValue:@"FMCommunityNetEngine" forKey:kFMCommunitiyConfigKey];
     }
     return self;
 }
