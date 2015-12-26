@@ -43,7 +43,7 @@
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-Xd-1xk" customClass="TimerStepContainerView">
                         <rect key="frame" x="10" y="60" width="293" height="20"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.13333334029999999" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="DVD-8z-KDH"/>
                         </constraints>

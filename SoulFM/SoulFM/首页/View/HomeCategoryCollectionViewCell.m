@@ -16,7 +16,7 @@
 
 - (void)updateWithImageName:(NSString *)imageName title:(NSString*)title
 {
-    NSLog(@"%@",NSStringFromCGRect(self.frame));
+    //NSLog(@"%@",NSStringFromCGRect(self.frame));
     [self updateConstraintsIfNeeded];
     [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:imageName] placeholderImage:nil];
     self.titleLabel.text = title;

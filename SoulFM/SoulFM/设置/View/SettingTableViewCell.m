@@ -17,6 +17,7 @@
 @implementation SettingTableViewCell
 
 - (void)awakeFromNib {
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
     self.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"minibg"]];
     self.backgroundColor = [UIColor clearColor];
 }

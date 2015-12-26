@@ -10,12 +10,20 @@
 
 @implementation TimeStepIndicatorView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (id)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
 }
-*/
+
+- (void)drawRect:(CGRect)rect {
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
+    CGContextAddArc(context,rect.size.width/2, rect.size.width/2, rect.size.width/2-2, 0, M_PI*2, YES);
+    CGContextStrokePath(context);
+    CGContextFillEllipseInRect(context, CGRectMake(5, 5, 10, 10));
+}
 
 @end

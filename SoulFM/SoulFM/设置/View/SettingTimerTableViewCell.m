@@ -13,13 +13,9 @@
     UIImageView *bgImageView;
 }
 - (void)awakeFromNib {
-    
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
-//- (void)layoutSubviews{
-//    [super layoutSubviews];
-//    bgImageView.frame = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height);
-//}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

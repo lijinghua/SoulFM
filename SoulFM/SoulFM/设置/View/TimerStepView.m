@@ -20,7 +20,7 @@
 - (void)drawRect:(CGRect)rect {
     
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(context, [UIColor yellowColor].CGColor);
+    CGContextSetFillColorWithColor(context, [UIColor groupTableViewBackgroundColor].CGColor);
     CGContextAddArc(context, rect.size.width/2, rect.size.height/2, rect.size.width/2.0, 0, 2*M_PI, YES);
     CGContextFillPath(context);
 }
