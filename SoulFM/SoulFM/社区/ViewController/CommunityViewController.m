@@ -69,6 +69,8 @@
 #pragma mark - NetWork
 - (void)fetchMessage
 {
+    [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleDrop];
+    [MMProgressHUD showWithTitle:@"加载中...."];
     FMNetEngine *netEngine = [[FMConfigration sharedInstance] configrationOfKey:kFMCommunitiyConfigKey];
     netEngine.delegate = self;
     if (self.segmentCtrl.selectedSegmentIndex == 0) {
@@ -77,6 +79,7 @@
         [netEngine setRequestValue:[self hottestUrl] forKey:kRequestUrlKey];
     }
     [netEngine fetchNetworkData];
+    
 }
 
 - (NSString*)essenceUrl{
@@ -90,6 +93,7 @@
 - (void)netEngine:(FMNetEngine *)engine dataSource:(id)dataSource{
     self.dataSource = dataSource;
     [self.tableView reloadData];
+    [MMProgressHUD dismissWithSuccess:@"加载完毕"];
 }
 
 #pragma mark - SegmentAction

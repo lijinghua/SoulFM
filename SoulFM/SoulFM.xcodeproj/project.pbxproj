@@ -171,12 +171,29 @@
 		977F81871C22A365002A7EC1 /* HomeSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */; };
 		977F81891C22A378002A7EC1 /* HomeSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */; };
 		977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 977F818A1C22AFA6002A7EC1 /* more111@2x.png */; };
+		97A4D6441C2BB95E00A9EDAF /* TimerStepContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A4D6431C2BB95E00A9EDAF /* TimerStepContainerView.m */; };
+		97A4D6471C2BB97600A9EDAF /* TimerStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A4D6461C2BB97600A9EDAF /* TimerStepView.m */; };
+		97A4D64A1C2BB98C00A9EDAF /* TimeStepIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A4D6491C2BB98C00A9EDAF /* TimeStepIndicatorView.m */; };
 		97AECC8A1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC881C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m */; };
 		97AECC8B1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC891C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib */; };
 		97AECC8E1C2AE47500DB708E /* FMCommunityNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC8D1C2AE47500DB708E /* FMCommunityNetEngine.m */; };
 		97AECC921C2AE7CF00DB708E /* CommunityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC901C2AE7CF00DB708E /* CommunityTableViewCell.m */; };
 		97AECC931C2AE7CF00DB708E /* CommunityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC911C2AE7CF00DB708E /* CommunityTableViewCell.xib */; };
 		97AECC961C2AEB5F00DB708E /* CommunityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC951C2AEB5F00DB708E /* CommunityModel.m */; };
+		97AECC981C2B875300DB708E /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC971C2B875300DB708E /* line.png */; };
+		97AECC9A1C2B87A000DB708E /* minibg.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC991C2B87A000DB708E /* minibg.png */; };
+		97AECC9E1C2B908E00DB708E /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECC9C1C2B908E00DB708E /* SettingTableViewCell.m */; };
+		97AECC9F1C2B908E00DB708E /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECC9D1C2B908E00DB708E /* SettingTableViewCell.xib */; };
+		97AECCA91C2B966E00DB708E /* _0000_pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA11C2B966E00DB708E /* _0000_pen.png */; };
+		97AECCAA1C2B966E00DB708E /* _0003_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA21C2B966E00DB708E /* _0003_share.png */; };
+		97AECCAB1C2B966E00DB708E /* _0004_collect.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA31C2B966E00DB708E /* _0004_collect.png */; };
+		97AECCAC1C2B966E00DB708E /* clearImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA41C2B966E00DB708E /* clearImage.png */; };
+		97AECCAD1C2B966E00DB708E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA51C2B966E00DB708E /* clock.png */; };
+		97AECCAE1C2B966E00DB708E /* fm50.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA61C2B966E00DB708E /* fm50.png */; };
+		97AECCAF1C2B966E00DB708E /* setTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA71C2B966E00DB708E /* setTime.png */; };
+		97AECCB01C2B966E00DB708E /* xuLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA81C2B966E00DB708E /* xuLine.png */; };
+		97AECCB41C2B99E100DB708E /* SettingTimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECCB21C2B99E100DB708E /* SettingTimerTableViewCell.m */; };
+		97AECCB51C2B99E100DB708E /* SettingTimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCB31C2B99E100DB708E /* SettingTimerTableViewCell.xib */; };
 		97D5C78E1C27DE5900AAC56B /* FMContentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C78D1C27DE5900AAC56B /* FMContentHeaderView.m */; };
 		97D5C7901C27DE8400AAC56B /* FMContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D5C78F1C27DE8400AAC56B /* FMContentHeaderView.xib */; };
 		97D5C7931C27EA2900AAC56B /* FMContentNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C7921C27EA2900AAC56B /* FMContentNetEngine.m */; };
@@ -451,6 +468,12 @@
 		977F81861C22A365002A7EC1 /* HomeSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionHeaderView.xib; sourceTree = "<group>"; };
 		977F81881C22A378002A7EC1 /* HomeSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionFooterView.xib; sourceTree = "<group>"; };
 		977F818A1C22AFA6002A7EC1 /* more111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more111@2x.png"; sourceTree = "<group>"; };
+		97A4D6421C2BB95E00A9EDAF /* TimerStepContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerStepContainerView.h; sourceTree = "<group>"; };
+		97A4D6431C2BB95E00A9EDAF /* TimerStepContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerStepContainerView.m; sourceTree = "<group>"; };
+		97A4D6451C2BB97600A9EDAF /* TimerStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerStepView.h; sourceTree = "<group>"; };
+		97A4D6461C2BB97600A9EDAF /* TimerStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerStepView.m; sourceTree = "<group>"; };
+		97A4D6481C2BB98C00A9EDAF /* TimeStepIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStepIndicatorView.h; sourceTree = "<group>"; };
+		97A4D6491C2BB98C00A9EDAF /* TimeStepIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStepIndicatorView.m; sourceTree = "<group>"; };
 		97AECC871C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCollectionSectionHeaView.h; sourceTree = "<group>"; };
 		97AECC881C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCollectionSectionHeaView.m; sourceTree = "<group>"; };
 		97AECC891C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCollectionSectionHeaView.xib; sourceTree = "<group>"; };
@@ -461,6 +484,22 @@
 		97AECC911C2AE7CF00DB708E /* CommunityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityTableViewCell.xib; sourceTree = "<group>"; };
 		97AECC941C2AEB5F00DB708E /* CommunityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityModel.h; sourceTree = "<group>"; };
 		97AECC951C2AEB5F00DB708E /* CommunityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityModel.m; sourceTree = "<group>"; };
+		97AECC971C2B875300DB708E /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		97AECC991C2B87A000DB708E /* minibg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minibg.png; sourceTree = "<group>"; };
+		97AECC9B1C2B908E00DB708E /* SettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
+		97AECC9C1C2B908E00DB708E /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
+		97AECC9D1C2B908E00DB708E /* SettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		97AECCA11C2B966E00DB708E /* _0000_pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _0000_pen.png; sourceTree = "<group>"; };
+		97AECCA21C2B966E00DB708E /* _0003_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _0003_share.png; sourceTree = "<group>"; };
+		97AECCA31C2B966E00DB708E /* _0004_collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _0004_collect.png; sourceTree = "<group>"; };
+		97AECCA41C2B966E00DB708E /* clearImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clearImage.png; sourceTree = "<group>"; };
+		97AECCA51C2B966E00DB708E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		97AECCA61C2B966E00DB708E /* fm50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fm50.png; sourceTree = "<group>"; };
+		97AECCA71C2B966E00DB708E /* setTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setTime.png; sourceTree = "<group>"; };
+		97AECCA81C2B966E00DB708E /* xuLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuLine.png; sourceTree = "<group>"; };
+		97AECCB11C2B99E100DB708E /* SettingTimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTimerTableViewCell.h; sourceTree = "<group>"; };
+		97AECCB21C2B99E100DB708E /* SettingTimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTimerTableViewCell.m; sourceTree = "<group>"; };
+		97AECCB31C2B99E100DB708E /* SettingTimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTimerTableViewCell.xib; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		97D5C78C1C27DE5900AAC56B /* FMContentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMContentHeaderView.h; sourceTree = "<group>"; };
@@ -648,6 +687,18 @@
 		977F7FB21C20F5C7002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				97AECC9B1C2B908E00DB708E /* SettingTableViewCell.h */,
+				97AECC9C1C2B908E00DB708E /* SettingTableViewCell.m */,
+				97AECC9D1C2B908E00DB708E /* SettingTableViewCell.xib */,
+				97AECCB11C2B99E100DB708E /* SettingTimerTableViewCell.h */,
+				97AECCB21C2B99E100DB708E /* SettingTimerTableViewCell.m */,
+				97AECCB31C2B99E100DB708E /* SettingTimerTableViewCell.xib */,
+				97A4D6421C2BB95E00A9EDAF /* TimerStepContainerView.h */,
+				97A4D6431C2BB95E00A9EDAF /* TimerStepContainerView.m */,
+				97A4D6451C2BB97600A9EDAF /* TimerStepView.h */,
+				97A4D6461C2BB97600A9EDAF /* TimerStepView.m */,
+				97A4D6481C2BB98C00A9EDAF /* TimeStepIndicatorView.h */,
+				97A4D6491C2BB98C00A9EDAF /* TimeStepIndicatorView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -703,6 +754,9 @@
 		977F7FBC1C20F5C7002A7EC1 /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
+				97AECCA01C2B966E00DB708E /* 设置 */,
+				97AECC991C2B87A000DB708E /* minibg.png */,
+				97AECC971C2B875300DB708E /* line.png */,
 				97D5C7AB1C2847A600AAC56B /* progress_btn.png */,
 				977F818A1C22AFA6002A7EC1 /* more111@2x.png */,
 				977F7FE71C20F96E002A7EC1 /* 烦恼 */,
@@ -1239,6 +1293,21 @@
 			name = "头部尾部";
 			sourceTree = "<group>";
 		};
+		97AECCA01C2B966E00DB708E /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				97AECCA11C2B966E00DB708E /* _0000_pen.png */,
+				97AECCA21C2B966E00DB708E /* _0003_share.png */,
+				97AECCA31C2B966E00DB708E /* _0004_collect.png */,
+				97AECCA41C2B966E00DB708E /* clearImage.png */,
+				97AECCA51C2B966E00DB708E /* clock.png */,
+				97AECCA61C2B966E00DB708E /* fm50.png */,
+				97AECCA71C2B966E00DB708E /* setTime.png */,
+				97AECCA81C2B966E00DB708E /* xuLine.png */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
 		97D5C78B1C27DE1300AAC56B /* 电台内容 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1339,12 +1408,15 @@
 			files = (
 				977F80B41C20FEA5002A7EC1 /* DiscoverViewController.xib in Resources */,
 				977F805F1C20F96E002A7EC1 /* pre.png in Resources */,
+				97AECCAA1C2B966E00DB708E /* _0003_share.png in Resources */,
+				97AECC9F1C2B908E00DB708E /* SettingTableViewCell.xib in Resources */,
 				977F802C1C20F96E002A7EC1 /* emotion3.png in Resources */,
 				97D5C7A51C2801A900AAC56B /* SpeakerTableViewCell.xib in Resources */,
 				977F80391C20F96E002A7EC1 /* scene7.png in Resources */,
 				977F809B1C20FBA9002A7EC1 /* WSProgressBundle.bundle in Resources */,
 				977F805A1C20F96E002A7EC1 /* next.png in Resources */,
 				977F80671C20F96E002A7EC1 /* touming.png in Resources */,
+				97AECCA91C2B966E00DB708E /* _0000_pen.png in Resources */,
 				977F80471C20F96E002A7EC1 /* tabBg@2x.png in Resources */,
 				977F80481C20F96E002A7EC1 /* bg1.png in Resources */,
 				976CAB2F1C2A75B700F57FD9 /* DiscoverCollectionViewCellOne.xib in Resources */,
@@ -1352,6 +1424,7 @@
 				977F818B1C22AFA6002A7EC1 /* more111@2x.png in Resources */,
 				977F80371C20F96E002A7EC1 /* scene5.png in Resources */,
 				972A25041C24F30B00177B7A /* FMItemListTableViewCell.xib in Resources */,
+				97AECC9A1C2B87A000DB708E /* minibg.png in Resources */,
 				977F80521C20F96E002A7EC1 /* littlePlaying1@2x.png in Resources */,
 				97D5C7901C27DE8400AAC56B /* FMContentHeaderView.xib in Resources */,
 				977F80641C20F96E002A7EC1 /* shouyeBg.png in Resources */,
@@ -1370,9 +1443,11 @@
 				977F7FDF1C20F91F002A7EC1 /* JHRefresh.bundle in Resources */,
 				977F80581C20F96E002A7EC1 /* loadMoreGift.png in Resources */,
 				977F80571C20F96E002A7EC1 /* littlePlaying6@2x.png in Resources */,
+				97AECCAC1C2B966E00DB708E /* clearImage.png in Resources */,
 				977F80331C20F96E002A7EC1 /* scene1.png in Resources */,
 				972A24F91C24E1AF00177B7A /* FMContentViewController.xib in Resources */,
 				977F80A01C20FDB5002A7EC1 /* Itemslist.plist in Resources */,
+				97AECCAF1C2B966E00DB708E /* setTime.png in Resources */,
 				977F804E1C20F96E002A7EC1 /* littlePaused3@2x.png in Resources */,
 				977F81421C21A445002A7EC1 /* HomeTableViewFoutFiveCell.xib in Resources */,
 				972A24FE1C24E21900177B7A /* FMReaderViewController.xib in Resources */,
@@ -1380,12 +1455,15 @@
 				977F804C1C20F96E002A7EC1 /* littlePaused1@2x.png in Resources */,
 				977F802A1C20F96E002A7EC1 /* emotion1.png in Resources */,
 				975D6D331C17D2420042533C /* Assets.xcassets in Resources */,
+				97AECC981C2B875300DB708E /* line.png in Resources */,
 				977F80501C20F96E002A7EC1 /* littlePaused5@2x.png in Resources */,
 				977F80381C20F96E002A7EC1 /* scene6.png in Resources */,
 				977F80631C20F96E002A7EC1 /* shenfenPic@2x.png in Resources */,
 				97D5C7AA1C2801BD00AAC56B /* UserGiftTableViewCell.xib in Resources */,
 				97AECC8B1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.xib in Resources */,
+				97AECCAD1C2B966E00DB708E /* clock.png in Resources */,
 				977F803F1C20F96E002A7EC1 /* mySelectedXiong1@2x.png in Resources */,
+				97AECCAE1C2B966E00DB708E /* fm50.png in Resources */,
 				977F80661C20F96E002A7EC1 /* three@2x.png in Resources */,
 				977F80491C20F96E002A7EC1 /* broadcasterBack.png in Resources */,
 				977F804D1C20F96E002A7EC1 /* littlePaused2@2x.png in Resources */,
@@ -1394,10 +1472,12 @@
 				977F814E1C224354002A7EC1 /* HomeCategoryCollectionViewCell.xib in Resources */,
 				977F80511C20F96E002A7EC1 /* littlePaused6@2x.png in Resources */,
 				977F803B1C20F96E002A7EC1 /* scene9.png in Resources */,
+				97AECCB51C2B99E100DB708E /* SettingTimerTableViewCell.xib in Resources */,
 				977F802B1C20F96E002A7EC1 /* emotion2.png in Resources */,
 				977F803E1C20F96E002A7EC1 /* faxianXiong1@2x.png in Resources */,
 				977F803D1C20F96E002A7EC1 /* faxianSelectedXiong1@2x.png in Resources */,
 				977F80321C20F96E002A7EC1 /* emotion9.png in Resources */,
+				97AECCB01C2B966E00DB708E /* xuLine.png in Resources */,
 				977F80531C20F96E002A7EC1 /* littlePlaying2@2x.png in Resources */,
 				977F80561C20F96E002A7EC1 /* littlePlaying5@2x.png in Resources */,
 				977F80AC1C20FE5F002A7EC1 /* HomeViewController.xib in Resources */,
@@ -1408,6 +1488,7 @@
 				977F803C1C20F96E002A7EC1 /* back.png in Resources */,
 				977F80301C20F96E002A7EC1 /* emotion7.png in Resources */,
 				977F80BC1C20FEF1002A7EC1 /* SettingViewController.xib in Resources */,
+				97AECCAB1C2B966E00DB708E /* _0004_collect.png in Resources */,
 				977F804A1C20F96E002A7EC1 /* commentPao@2x.png in Resources */,
 				977F80611C20F96E002A7EC1 /* search111.png in Resources */,
 				977F802D1C20F96E002A7EC1 /* emotion4.png in Resources */,
@@ -1498,6 +1579,7 @@
 				977F817D1C226E5A002A7EC1 /* View+MASAdditions.m in Sources */,
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
+				97A4D6441C2BB95E00A9EDAF /* TimerStepContainerView.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
 				976CAB3D1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m in Sources */,
 				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
@@ -1514,6 +1596,7 @@
 				97AECC921C2AE7CF00DB708E /* CommunityTableViewCell.m in Sources */,
 				977F80C21C20FF40002A7EC1 /* FMTabBarViewController.m in Sources */,
 				977F81581C225B10002A7EC1 /* HomeTableViewCell.m in Sources */,
+				97A4D64A1C2BB98C00A9EDAF /* TimeStepIndicatorView.m in Sources */,
 				976CAB281C2A6EA100F57FD9 /* DiscoverHeadView.m in Sources */,
 				977F7FE01C20F91F002A7EC1 /* JHRefreshBaseView.m in Sources */,
 				977F817C1C226E5A002A7EC1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -1532,6 +1615,7 @@
 				977F81371C21A3C4002A7EC1 /* HomeTableViewSecondCell.m in Sources */,
 				977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
+				97A4D6471C2BB97600A9EDAF /* TimerStepView.m in Sources */,
 				97AECC8A1C2ACD6200DB708E /* DiscoverCollectionSectionHeaView.m in Sources */,
 				977F80961C20FBA9002A7EC1 /* MMVectorImage.m in Sources */,
 				972A24FD1C24E21900177B7A /* FMReaderViewController.m in Sources */,
@@ -1540,6 +1624,8 @@
 				972A25071C24F6C500177B7A /* ItemListDataEngine.m in Sources */,
 				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
 				97D5C7A91C2801BD00AAC56B /* UserGiftTableViewCell.m in Sources */,
+				97AECC9E1C2B908E00DB708E /* SettingTableViewCell.m in Sources */,
+				97AECCB41C2B99E100DB708E /* SettingTimerTableViewCell.m in Sources */,
 				977F80BB1C20FEF1002A7EC1 /* SettingViewController.m in Sources */,
 				977F81091C215802002A7EC1 /* TuiJianModel.m in Sources */,
 				972A24F81C24E1AF00177B7A /* FMContentViewController.m in Sources */,

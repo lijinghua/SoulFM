@@ -26,7 +26,7 @@
                             <constraint firstAttribute="height" constant="21" id="WhM-Kg-tKi"/>
                             <constraint firstAttribute="width" constant="70" id="yig-1e-ipQ"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -36,7 +36,7 @@
                             <constraint firstAttribute="height" constant="21" id="rs0-xJ-ior"/>
                             <constraint firstAttribute="width" constant="69" id="uGD-l0-Ggf"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </label>
@@ -57,7 +57,7 @@
                 <outlet property="iconImageView" destination="Z6d-Hu-W5B" id="a8l-Zf-74A"/>
                 <outlet property="nameLabel" destination="ZsT-3i-vOW" id="u8v-3o-mse"/>
             </connections>
-            <point key="canvasLocation" x="120" y="261"/>
+            <point key="canvasLocation" x="-73" y="314"/>
         </collectionViewCell>
     </objects>
 </document>

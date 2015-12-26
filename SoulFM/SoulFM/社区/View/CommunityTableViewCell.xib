@@ -53,9 +53,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="commentPao.png" translatesAutoresizingMaskIntoConstraints="NO" id="zWH-Vh-4b3">
-                        <rect key="frame" x="286" y="17" width="29" height="16"/>
+                        <rect key="frame" x="286" y="17" width="20" height="16"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="29" id="ELZ-7L-apP"/>
+                            <constraint firstAttribute="width" constant="20" id="ELZ-7L-apP"/>
                             <constraint firstAttribute="height" constant="16" id="iUh-hR-020"/>
                         </constraints>
                     </imageView>
@@ -76,7 +76,7 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="zWH-Vh-4b3" secondAttribute="trailing" constant="-3" id="0Id-VB-Z8W"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zWH-Vh-4b3" secondAttribute="trailing" constant="6" id="0Id-VB-Z8W"/>
                     <constraint firstItem="qiq-9W-eIT" firstAttribute="leading" secondItem="eXH-du-ZiN" secondAttribute="trailing" constant="5" id="3Ip-nX-pJj"/>
                     <constraint firstItem="qgJ-kV-IL5" firstAttribute="leading" secondItem="eXH-du-ZiN" secondAttribute="trailing" constant="5" id="5wH-ns-dEY"/>
                     <constraint firstItem="2F8-fN-l8G" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="7vR-MQ-YEe"/>
