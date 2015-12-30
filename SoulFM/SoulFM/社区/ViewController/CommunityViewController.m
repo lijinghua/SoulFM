@@ -11,9 +11,11 @@
 #import "CommunityModel.h"
 
 @interface CommunityViewController ()
+
 @property(nonatomic)UISegmentedControl *segmentCtrl;
 @property(nonatomic)NSInteger page;
 @property(nonatomic)NSArray   *dataSource;
+
 @end
 
 @implementation CommunityViewController
