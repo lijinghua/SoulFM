@@ -31,7 +31,7 @@
 }
 
 - (void)didSelectModel:(JSONModel *)model{
-    FMContentViewController *contentViewController = [[FMContentViewController alloc]init];
+    FMContentViewController *contentViewController = [FMContentViewController sharedInstance];
     contentViewController.hidesBottomBarWhenPushed = YES;
     contentViewController.modelArray = (NSArray*)self.dataSourceArray;
     contentViewController.currentIndex = [self.dataSourceArray indexOfObject:model];

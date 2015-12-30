@@ -13,4 +13,8 @@
 @property(nonatomic,copy)NSString *fetchEngineConfigrationKey;
 @property(nonatomic)UITableView *tableView;
 
+@property(nonatomic)NSMutableArray *playingImgArray;
+@property(nonatomic)NSMutableArray *pausingImgArray;
+@property(nonatomic)UIImageView    *playingIndicatorView;
+
 @end

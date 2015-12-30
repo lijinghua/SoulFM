@@ -16,4 +16,7 @@
 @property(nonatomic)NSArray       *modelArray;
 @property(nonatomic)NSInteger      currentIndex;
 
+//单例
++ (instancetype)sharedInstance;
+
 @end

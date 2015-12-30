@@ -13,6 +13,12 @@
 #define  kScreenWidth   SCREEN_RECT.size.width
 #define  kScreenHeight  SCREEN_RECT.size.height
 
+//播放放中的通知
+#define FMPlayingNotification     @"fmplaying"
+
+//停止播放的通知
+#define FMPlayingStopNotification @"fmstop"
+
 
 typedef NS_ENUM(NSInteger,FMCategoryType) {
     COMMON           = 1,

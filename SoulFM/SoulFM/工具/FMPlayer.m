@@ -11,9 +11,12 @@
 
 @interface FMPlayer ()
 @property(nonatomic)AVPlayer *player;
+@property(nonatomic)BOOL isPlaying;
 @end
 
+
 @implementation FMPlayer
+@synthesize isPlaying = _isPlaying;
 
 + (instancetype)sharedInstance
 {
@@ -25,20 +28,37 @@
     return s_FMPlayer;
 }
 
+- (BOOL)isPlaying{
+    return _isPlaying;
+}
+
 - (void)stop{
     [self.player.currentItem removeObserver:self forKeyPath:@"status"];
     [self.player replaceCurrentItemWithPlayerItem:nil];
     [self.player pause];
     self.player = nil;
+    self.isPlaying = NO;
 }
 
 - (void)pause{
     [self.player pause];
+    self.isPlaying = NO;
 }
 
 - (void)resume{
     if (self.player) {
         [self.player play];
+        self.isPlaying = YES;
+    }
+}
+
+- (void)setIsPlaying:(BOOL)isPlaying
+{
+    _isPlaying = isPlaying;
+    if (isPlaying) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:FMPlayingNotification object:nil];
+    }else{
+        [[NSNotificationCenter defaultCenter]postNotificationName:FMPlayingStopNotification object:nil];
     }
 }
 
@@ -57,6 +77,7 @@
         AVPlayerItem *item = (AVPlayerItem*)object;
         if (item.status == AVPlayerItemStatusReadyToPlay) {
             [self.player play];
+            self.isPlaying = YES;
             self.duration = CMTimeGetSeconds(item.duration);
             __weak typeof(self) weakSelf = self;
             [self.player addPeriodicTimeObserverForInterval:CMTimeMake(1, 1) queue:dispatch_get_main_queue() usingBlock:^(CMTime time) {

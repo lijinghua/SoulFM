@@ -7,8 +7,13 @@
 //
 
 #import "FMBaseViewController.h"
+#import "FMContentViewController.h"
+#import "FMPlayer.h"
+
+#define PLAY_IMG_TAG    9999
 
 @interface FMBaseViewController ()
+
 
 @end
 
@@ -22,6 +27,19 @@
     [self fetchMessage];
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self customPlayStatus];
+}
+
+- (void)customPlayStatus{
+    if ([[FMPlayer sharedInstance] isPlaying]) {
+        [self.playingIndicatorView startAnimating];
+    }else{
+        [self.playingIndicatorView stopAnimating];
+    }
+}
+
 #pragma mark - Custom
 - (void)customInitData{
     
@@ -33,7 +51,54 @@
 }
 
 - (void)customNavigationBar{
+    [self customLeftNavigationBar];
+    [self customTitleView];
+    [self customRightNavigationBar];
+}
+
+- (void)customLeftNavigationBar{}
+- (void)customTitleView{}
+- (void)customRightNavigationBar{
+    self.playingIndicatorView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
+    self.playingIndicatorView.image = [UIImage imageNamed:@"littlePlaying1.png"];
+    self.playingIndicatorView.userInteractionEnabled = YES;
+    self.playingIndicatorView.animationImages = self.playingImgArray;
+    self.playingIndicatorView.animationRepeatCount = HUGE_VAL;
+    [self customPlayStatus];
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(handleTapOnGesture:)];
+    [self.playingIndicatorView addGestureRecognizer:tap];
+
+    UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:self.playingIndicatorView];
+    self.navigationItem.rightBarButtonItem = item;
+}
+
+- (void)handleTapOnGesture:(UITapGestureRecognizer*)gesture
+{
+    FMContentViewController *contentViewController = [FMContentViewController sharedInstance];
+    [self.navigationController pushViewController:contentViewController animated:YES];
+}
+
+- (NSArray*)playingImgArray{
+    if (_playingImgArray == nil) {
+        _playingImgArray = [NSMutableArray array];
+        for (int index = 1; index <= 6; index++) {
+            UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"littlePlaying%d",index]];
+            [_playingImgArray addObject:image];
+        }
+    }
+    return _playingImgArray;
+}
+
+- (NSArray*)pausingImgArray{
+    if (_pausingImgArray == nil) {
+        _pausingImgArray = [NSMutableArray array];
+        for (int index = 1; index <= 6; index++) {
+            UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"littlePaused%d",index]];
+            [_pausingImgArray addObject:image];
+        }
+    }
+    return _pausingImgArray;
 }
 
 - (void)customTableViewCell{

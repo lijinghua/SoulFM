@@ -13,6 +13,7 @@
 #import "SpeakerTableViewCell.h"
 #import "UserGiftTableViewCell.h"
 
+#import <AssetsLibrary/AssetsLibrary.h>
 @interface FMContentViewController ()<FMConentHeadViewDelegate>
 @property(nonatomic)FMContentHeaderView *headerView;
 @property(nonatomic)NSString *currentModelId;
@@ -22,6 +23,16 @@
 
 @implementation FMContentViewController
 
++ (instancetype)sharedInstance
+{
+    static FMContentViewController *s_instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        s_instance = [[FMContentViewController alloc]init];
+    });
+    return s_instance;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
@@ -30,6 +41,10 @@
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
 }
+
+//删除父类的右侧的navigationBar
+- (void)customRightNavigationBar{}
+- (void)registeNotifications{}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

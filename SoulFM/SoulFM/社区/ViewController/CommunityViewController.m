@@ -20,13 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.translucent = NO;
     self.automaticallyAdjustsScrollViewInsets = NO;
-    [self createHeadView];
+    //[self createHeadView];
 }
 
 - (void)customUI{
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
     self.tableView.dataSource = self;
     self.tableView.delegate   = self;
     self.tableView.estimatedRowHeight = 44;
@@ -38,24 +38,13 @@
     [self.view addSubview:self.tableView];
 }
 
-- (void)createHeadView {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 64)];
-    view.backgroundColor = [UIColor whiteColor];
-    
-    UIView *vc = [[UIView alloc] initWithFrame:CGRectMake(0, 63, kScreenWidth, 1)];
-    vc.backgroundColor = [UIColor lightGrayColor];
-    [view bringSubviewToFront:vc];
-    [view addSubview:vc];
-    [self.view addSubview:view];
-}
 
 - (void)customInitData
 {
     self.page = 0;
 }
 
-- (void)customNavigationBar
-{
+- (void)customTitleView{
     self.segmentCtrl = [[UISegmentedControl alloc]initWithItems:@[@"精华",@"最新"]];
     [self.segmentCtrl addTarget:self action:@selector(segmentClick:) forControlEvents:UIControlEventValueChanged];
     self.segmentCtrl.tintColor = [UIColor orangeColor];
