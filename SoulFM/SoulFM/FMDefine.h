@@ -26,7 +26,7 @@
 
 
 // 主播详情
-#define FmHostDetailUrl @"http://yiapibox.xinli001.com/fm/diantai-jiemu-list.json?diantai_id=%@&key=c0d28ec0954084b4426223366293d190&offset=0&limit=20"
+#define FmHostDetailUrl @"http://yiapibox.xinli001.com/fm/diantai-jiemu-list.json?diantai_id=%@&key=c0d28ec0954084b4426223366293d190&offset=%ld&limit=20"
 #define FmHostPersonalUrl @"http://yiapibox.xinli001.com/fm/diantai-detai.json?key=c0d28ec0954084b4426223366293d190&id=%@"
 
 

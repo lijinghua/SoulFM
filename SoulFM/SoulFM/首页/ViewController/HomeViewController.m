@@ -17,6 +17,7 @@
 #import "HomeSectionHeaderView.h"
 #import "HomeSectionFooterView.h"
 #import "FMItemListTableViewController.h"
+#import "MoreSpeakerViewController.h"
 
 static NSString * const kTableViewFirstCellId    = @"firstCellId";
 static NSString * const kTableViewSecondCellId   = @"secondCellId";
@@ -42,6 +43,11 @@ NSString * const kDianTaiModelKey         = @"diantai";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.translucent = YES;
 }
 
 #pragma mark - 配置
@@ -242,7 +248,14 @@ NSString * const kDianTaiModelKey         = @"diantai";
 - (void)handleTapGesture:(UITapGestureRecognizer*)gestrue
 {
     UIView *targetView = gestrue.view;
-    FMItemListTableViewController *itemListViewController = [[FMItemListTableViewController alloc]initWithCategory:[self categoryOfSection:targetView.tag]];
+    FMCategoryType type = [self categoryOfSection:targetView.tag];
+    if (type == MORE_DIANTAI) {
+        MoreSpeakerViewController *viewController = [[MoreSpeakerViewController alloc]init];
+        viewController.type = MORE_DIANTAI;
+        [self.navigationController pushViewController:viewController animated:YES];
+        return;
+    }
+    FMItemListTableViewController *itemListViewController = [[FMItemListTableViewController alloc]initWithCategory:type];
     [self.navigationController pushViewController:itemListViewController animated:YES];
 }
 

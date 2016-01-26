@@ -13,6 +13,8 @@ static NSString * kFMItemListDataEngine  = @"itemListDateEngine";
 static NSString * kFMContentConfigKey    = @"fmContentEngine";
 static NSString * kFMDiscoverConfigKey   = @"fmDiscoverEngine";
 static NSString * kFMCommunitiyConfigKey = @"communityEngine";
+static NSString * kFMReaderInfoConfigKey = @"readInfoEngine";
+static NSString * kFMReaderListConfigKey = @"readListEngine";
 
 @interface FMConfigration : NSObject
 

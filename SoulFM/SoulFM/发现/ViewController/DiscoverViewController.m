@@ -14,6 +14,9 @@
 #import "DianTaiModel.h"
 #import "FMDiscoverMoodTroubleModel.h"
 #import "DiscoverCollectionSectionHeaView.h"
+#import "FMItemListTableViewController.h"
+#import "FMReaderViewController.h"
+#import "Catagory.h"
 
 #define DISCOVER_HEADVIEW_HEIGH    306
 
@@ -42,7 +45,7 @@
 
 - (void)customInitData
 {
-    self.moodArray = [FMDiscoverMoodTroubleModel paringDataFromLocalmood];
+    self.moodArray    = [FMDiscoverMoodTroubleModel paringDataFromLocalmood];
     self.troubleArray = [FMDiscoverMoodTroubleModel paringDataFromLocaltrouble];
 }
 
@@ -172,6 +175,39 @@
     }
     return headView;
 }
+
+//点击
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0 || indexPath.section == 1) {
+        [self selectMoodToubleCellAtIndex:indexPath];
+    }else if(indexPath.section == 2){
+        [self selectReaderCellAtIndex:indexPath.row];
+    }
+}
+
+- (void)selectMoodToubleCellAtIndex:(NSIndexPath*)indexPath{
+    FMDiscoverMoodTroubleModel *model = nil;
+    if (indexPath.section == 0) {
+        model = [self.moodArray objectAtIndex:indexPath.row];
+    }else{
+        model = [self.troubleArray objectAtIndex:indexPath.row];
+    }
+
+    Catagory *category = [[Catagory alloc]init];
+    category.name = model.name;
+    FMItemListTableViewController *viewController = [[FMItemListTableViewController alloc]init];
+    viewController.type = MOOD_TROUBLE;
+    viewController.model = category;
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)selectReaderCellAtIndex:(NSInteger)index{
+    FMReaderViewController *readerViewController = [[FMReaderViewController alloc]init];
+    readerViewController.hidesBottomBarWhenPushed = YES;
+    readerViewController.model = [self.speakerDataArray objectAtIndex:index];
+    [self.navigationController pushViewController:readerViewController animated:YES];
+}
+
 
 #pragma mark - itemsize
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{

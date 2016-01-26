@@ -9,6 +9,8 @@
 #import "FMNetEngine.h"
 #import "AFNetworking.h"
 
+static NSString * const kRequestTagKey    = @"requestTag";
+
 @interface FMNetEngine ()
 @property(nonatomic)AFHTTPRequestOperationManager *opManager;
 @end
@@ -39,6 +41,14 @@
     if (parameterObject != nil && key != nil) {
         [_paramter setObject:parameterObject forKey:key];
     }
+}
+
+- (void)setRequestTag:(NSInteger)tag{
+    [self.paramter setValue:@(tag) forKey:kRequestTagKey];
+}
+
+- (NSInteger)requtestTag{
+    return [[self.paramter objectForKey:kRequestTagKey] integerValue];
 }
 
 

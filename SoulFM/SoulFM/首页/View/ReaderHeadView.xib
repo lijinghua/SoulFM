@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ReaderHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="165"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-UO-bDe">
+                    <rect key="frame" x="0.0" y="0.0" width="339" height="121"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="121" id="kPf-s3-fZg"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shenfenPic.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0h-5p-Oef">
+                    <rect key="frame" x="11" y="129" width="23" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="Tkb-SZ-3Xi"/>
+                        <constraint firstAttribute="height" constant="22" id="jUL-Gx-Q3L"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMa-Pm-zkR">
+                    <rect key="frame" x="49" y="119" width="282" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="KXT-wD-gZp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="兰琪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eS-cR-uFL">
+                    <rect key="frame" x="78" y="65" width="80" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="LGh-ez-d9o"/>
+                        <constraint firstAttribute="height" constant="17" id="iRV-in-7jZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJ8-4p-1W8">
+                    <rect key="frame" x="78" y="90" width="158" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="158" id="56T-qk-SPE"/>
+                        <constraint firstAttribute="height" constant="21" id="yaH-qN-xSA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KjG-yz-v55">
+                    <rect key="frame" x="13" y="65" width="47" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="Ve4-Dk-8j3"/>
+                        <constraint firstAttribute="height" constant="48" id="xbF-fF-MRD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="F4h-UO-bDe" secondAttribute="trailing" id="2Jd-si-PTr"/>
+                <constraint firstItem="KjG-yz-v55" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="13" id="7C7-lD-dze"/>
+                <constraint firstItem="o0h-5p-Oef" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="BcU-II-SQL"/>
+                <constraint firstItem="KjG-yz-v55" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="CVV-aL-pL0"/>
+                <constraint firstItem="lJ8-4p-1W8" firstAttribute="top" secondItem="0eS-cR-uFL" secondAttribute="bottom" constant="8" id="HVx-4J-HBr"/>
+                <constraint firstItem="o0h-5p-Oef" firstAttribute="top" secondItem="F4h-UO-bDe" secondAttribute="bottom" constant="8" id="KLx-um-h9Z"/>
+                <constraint firstItem="F4h-UO-bDe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NST-dT-JhC"/>
+                <constraint firstItem="F4h-UO-bDe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XX9-50-pbc"/>
+                <constraint firstItem="lJ8-4p-1W8" firstAttribute="leading" secondItem="KjG-yz-v55" secondAttribute="trailing" constant="18" id="bH2-KR-zyr"/>
+                <constraint firstItem="vMa-Pm-zkR" firstAttribute="leading" secondItem="o0h-5p-Oef" secondAttribute="trailing" constant="15" id="cf2-Gp-crU"/>
+                <constraint firstAttribute="trailing" secondItem="vMa-Pm-zkR" secondAttribute="trailing" constant="8" id="jwc-O7-K8g"/>
+                <constraint firstItem="0eS-cR-uFL" firstAttribute="leading" secondItem="KjG-yz-v55" secondAttribute="trailing" constant="18" id="qza-kc-qZR"/>
+                <constraint firstItem="vMa-Pm-zkR" firstAttribute="top" secondItem="KjG-yz-v55" secondAttribute="bottom" constant="6" id="sAY-Rs-qV1"/>
+                <constraint firstItem="0eS-cR-uFL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="vvg-PF-ULq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="listenerLabel" destination="lJ8-4p-1W8" id="kc1-td-vAH"/>
+                <outlet property="readBackgrondImageView" destination="F4h-UO-bDe" id="woz-Vz-yxJ"/>
+                <outlet property="readerAvadarImageView" destination="KjG-yz-v55" id="0AZ-tk-9Ty"/>
+                <outlet property="readerDescriptionLabel" destination="vMa-Pm-zkR" id="gYl-il-nPm"/>
+                <outlet property="readerName" destination="0eS-cR-uFL" id="Lqb-hI-Nh7"/>
+            </connections>
+            <point key="canvasLocation" x="-500.5" y="128.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shenfenPic.png" width="15" height="15"/>
+    </resources>
+</document>

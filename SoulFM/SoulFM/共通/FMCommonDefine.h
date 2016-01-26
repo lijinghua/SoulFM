@@ -25,6 +25,7 @@ typedef NS_ENUM(NSInteger,FMCategoryType) {
     MORE_PSYCHOLOGY  = 2,
     MORE_FM          = 3,
     MORE_DIANTAI     = 4,
+    MOOD_TROUBLE     = 5,
 };
 
 #endif /* FMCommonDefine_h */

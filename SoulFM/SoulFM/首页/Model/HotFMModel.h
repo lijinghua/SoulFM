@@ -8,6 +8,7 @@
 
 #import <JSONModel/JSONModel.h>
 #import "DianTaiModel.h"
+#import "ReaderContentListModel.h"
 
 @protocol NSString @end
 
@@ -15,6 +16,8 @@
 @end
 
 @interface HotFMModel : JSONModel
+
++ (HotFMModel*)covertFromReadItemModel:(ReaderContentListModel*)model;
 
 @property(nonatomic,copy)NSString *id;
 @property(nonatomic,copy)NSString *title;
@@ -25,8 +28,8 @@
 @property(nonatomic,copy)NSString *viewnum;
 @property(nonatomic,copy)NSString *is_teacher;
 @property(nonatomic,copy)NSString *absolute_url;
-@property(nonatomic)NSArray<NSString,Optional> *url_list;
-@property(nonatomic,copy)NSString *object_id;
-@property(nonatomic,copy)DianTaiModel *diantai;
+@property(nonatomic)NSArray<NSString,Optional>  *url_list;
+@property(nonatomic,copy)NSString<Optional>     *object_id;
+@property(nonatomic,copy)DianTaiModel<Optional> *diantai;
    
 @end

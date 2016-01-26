@@ -9,6 +9,7 @@
 #import "FMItemListTableViewController.h"
 #import "FMItemListTableViewCell.h"
 #import "HotFMModel.h"
+#import "FMContentViewController.h"
 
 @interface FMItemListTableViewController ()<FMNetEngineDelegate>
 @property(nonatomic)NSMutableArray *itemListArray;
@@ -41,9 +42,10 @@
 {
     FMNetEngine *netEngine = [[FMConfigration sharedInstance] configrationOfKey:kFMItemListDataEngine];
     netEngine.delegate = self;
-    [netEngine setRequestValue:@(self.type)  forKey:@"categoryType"];
-    [netEngine setRequestValue:self.model.id forKey:@"typeId"];
-    [netEngine setRequestValue:@(1)          forKey:@"pageNo"];
+    [netEngine setRequestValue:@(self.type)    forKey:@"categoryType"];
+    [netEngine setRequestValue:self.model.id   forKey:@"typeId"];
+    [netEngine setRequestValue:@(0)            forKey:@"pageNo"];
+    [netEngine setRequestValue:self.model.name forKey:@"modelName"];
     [netEngine fetchNetworkData];
 }
 
@@ -72,6 +74,14 @@
     HotFMModel *model = [self.itemListArray objectAtIndex:indexPath.row];
     [cell updateWithModel:model];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    FMContentViewController *contentViewController = [FMContentViewController sharedInstance];
+    contentViewController.hidesBottomBarWhenPushed = YES;
+    contentViewController.modelArray   = self.itemListArray;
+    contentViewController.currentIndex = indexPath.row;
+    [self.navigationController pushViewController:contentViewController animated:YES];
 }
 
 

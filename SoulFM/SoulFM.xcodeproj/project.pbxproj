@@ -194,6 +194,16 @@
 		97AECCB01C2B966E00DB708E /* xuLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCA81C2B966E00DB708E /* xuLine.png */; };
 		97AECCB41C2B99E100DB708E /* SettingTimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AECCB21C2B99E100DB708E /* SettingTimerTableViewCell.m */; };
 		97AECCB51C2B99E100DB708E /* SettingTimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AECCB31C2B99E100DB708E /* SettingTimerTableViewCell.xib */; };
+		97BDE4CD1C55BBA70005A03E /* ReaderHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4CC1C55BBA70005A03E /* ReaderHeadView.m */; };
+		97BDE4CF1C55BBB90005A03E /* ReaderHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BDE4CE1C55BBB90005A03E /* ReaderHeadView.xib */; };
+		97BDE4D21C55C7330005A03E /* FMReaderInfoEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4D11C55C7330005A03E /* FMReaderInfoEngine.m */; };
+		97BDE4D51C55C7480005A03E /* FMReaderContentListEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4D41C55C7480005A03E /* FMReaderContentListEngine.m */; };
+		97BDE4D81C55CAA50005A03E /* ReaderInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4D71C55CAA50005A03E /* ReaderInfoModel.m */; };
+		97BDE4DB1C55CB8E0005A03E /* ReaderContentListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4DA1C55CB8E0005A03E /* ReaderContentListModel.m */; };
+		97BDE4DF1C55E1C00005A03E /* ReaderListItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4DD1C55E1C00005A03E /* ReaderListItemTableViewCell.m */; };
+		97BDE4E01C55E1C00005A03E /* ReaderListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97BDE4DE1C55E1C00005A03E /* ReaderListItemTableViewCell.xib */; };
+		97BDE4EA1C561F040005A03E /* MoreSpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4E91C561F040005A03E /* MoreSpeakerViewController.m */; };
+		97BDE4EE1C5623170005A03E /* MoreDianTaiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDE4ED1C5623170005A03E /* MoreDianTaiModel.m */; };
 		97D5C78E1C27DE5900AAC56B /* FMContentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C78D1C27DE5900AAC56B /* FMContentHeaderView.m */; };
 		97D5C7901C27DE8400AAC56B /* FMContentHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D5C78F1C27DE8400AAC56B /* FMContentHeaderView.xib */; };
 		97D5C7931C27EA2900AAC56B /* FMContentNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D5C7921C27EA2900AAC56B /* FMContentNetEngine.m */; };
@@ -500,6 +510,24 @@
 		97AECCB11C2B99E100DB708E /* SettingTimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTimerTableViewCell.h; sourceTree = "<group>"; };
 		97AECCB21C2B99E100DB708E /* SettingTimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTimerTableViewCell.m; sourceTree = "<group>"; };
 		97AECCB31C2B99E100DB708E /* SettingTimerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTimerTableViewCell.xib; sourceTree = "<group>"; };
+		97BDE4CB1C55BBA70005A03E /* ReaderHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderHeadView.h; sourceTree = "<group>"; };
+		97BDE4CC1C55BBA70005A03E /* ReaderHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderHeadView.m; sourceTree = "<group>"; };
+		97BDE4CE1C55BBB90005A03E /* ReaderHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderHeadView.xib; sourceTree = "<group>"; };
+		97BDE4D01C55C7330005A03E /* FMReaderInfoEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMReaderInfoEngine.h; sourceTree = "<group>"; };
+		97BDE4D11C55C7330005A03E /* FMReaderInfoEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMReaderInfoEngine.m; sourceTree = "<group>"; };
+		97BDE4D31C55C7480005A03E /* FMReaderContentListEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMReaderContentListEngine.h; sourceTree = "<group>"; };
+		97BDE4D41C55C7480005A03E /* FMReaderContentListEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMReaderContentListEngine.m; sourceTree = "<group>"; };
+		97BDE4D61C55CAA50005A03E /* ReaderInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInfoModel.h; sourceTree = "<group>"; };
+		97BDE4D71C55CAA50005A03E /* ReaderInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderInfoModel.m; sourceTree = "<group>"; };
+		97BDE4D91C55CB8E0005A03E /* ReaderContentListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentListModel.h; sourceTree = "<group>"; };
+		97BDE4DA1C55CB8E0005A03E /* ReaderContentListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentListModel.m; sourceTree = "<group>"; };
+		97BDE4DC1C55E1C00005A03E /* ReaderListItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderListItemTableViewCell.h; sourceTree = "<group>"; };
+		97BDE4DD1C55E1C00005A03E /* ReaderListItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderListItemTableViewCell.m; sourceTree = "<group>"; };
+		97BDE4DE1C55E1C00005A03E /* ReaderListItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderListItemTableViewCell.xib; sourceTree = "<group>"; };
+		97BDE4E81C561F040005A03E /* MoreSpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreSpeakerViewController.h; sourceTree = "<group>"; };
+		97BDE4E91C561F040005A03E /* MoreSpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreSpeakerViewController.m; sourceTree = "<group>"; };
+		97BDE4EC1C5623170005A03E /* MoreDianTaiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDianTaiModel.h; sourceTree = "<group>"; };
+		97BDE4ED1C5623170005A03E /* MoreDianTaiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDianTaiModel.m; sourceTree = "<group>"; };
 		97C506F01C1ABDDB000A8BFA /* SoulFM.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoulFM.pch; sourceTree = "<group>"; };
 		97C506F11C1ABE01000A8BFA /* FMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDefine.h; sourceTree = "<group>"; };
 		97D5C78C1C27DE5900AAC56B /* FMContentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMContentHeaderView.h; sourceTree = "<group>"; };
@@ -801,6 +829,7 @@
 		977F7FBE1C20F62E002A7EC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				97BDE4EB1C5622F00005A03E /* 更多电台 */,
 				97D5C7941C27ED4B00AAC56B /* 电台内容 */,
 				977F81011C214D8D002A7EC1 /* newlession */,
 				977F81001C214D85002A7EC1 /* newfm */,
@@ -810,6 +839,10 @@
 				977F80FD1C214CFC002A7EC1 /* diantai */,
 				977F81041C2154A4002A7EC1 /* HomeModel.h */,
 				977F81051C2154A4002A7EC1 /* HomeModel.m */,
+				97BDE4D61C55CAA50005A03E /* ReaderInfoModel.h */,
+				97BDE4D71C55CAA50005A03E /* ReaderInfoModel.m */,
+				97BDE4D91C55CB8E0005A03E /* ReaderContentListModel.h */,
+				97BDE4DA1C55CB8E0005A03E /* ReaderContentListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -817,6 +850,8 @@
 		977F7FBF1C20F62E002A7EC1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				97BDE4E11C55E1CE0005A03E /* 主播节目Cell */,
+				97BDE4CA1C55BB730005A03E /* 主播头部视图 */,
 				97D5C78B1C27DE1300AAC56B /* 电台内容 */,
 				972A24FF1C24F24000177B7A /* 更多列表 */,
 				977F817F1C22A2FF002A7EC1 /* 头部尾部 */,
@@ -844,6 +879,8 @@
 				972A24FA1C24E21900177B7A /* FMReaderViewController.h */,
 				972A24FB1C24E21900177B7A /* FMReaderViewController.m */,
 				972A24FC1C24E21900177B7A /* FMReaderViewController.xib */,
+				97BDE4E81C561F040005A03E /* MoreSpeakerViewController.h */,
+				97BDE4E91C561F040005A03E /* MoreSpeakerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1131,6 +1168,10 @@
 				976CAB361C2A7E1400F57FD9 /* FMDiscoverNetEngine.m */,
 				97AECC8C1C2AE47500DB708E /* FMCommunityNetEngine.h */,
 				97AECC8D1C2AE47500DB708E /* FMCommunityNetEngine.m */,
+				97BDE4D01C55C7330005A03E /* FMReaderInfoEngine.h */,
+				97BDE4D11C55C7330005A03E /* FMReaderInfoEngine.m */,
+				97BDE4D31C55C7480005A03E /* FMReaderContentListEngine.h */,
+				97BDE4D41C55C7480005A03E /* FMReaderContentListEngine.m */,
 			);
 			path = "网络引擎";
 			sourceTree = "<group>";
@@ -1308,6 +1349,35 @@
 			path = "设置";
 			sourceTree = "<group>";
 		};
+		97BDE4CA1C55BB730005A03E /* 主播头部视图 */ = {
+			isa = PBXGroup;
+			children = (
+				97BDE4CB1C55BBA70005A03E /* ReaderHeadView.h */,
+				97BDE4CC1C55BBA70005A03E /* ReaderHeadView.m */,
+				97BDE4CE1C55BBB90005A03E /* ReaderHeadView.xib */,
+			);
+			name = "主播头部视图";
+			sourceTree = "<group>";
+		};
+		97BDE4E11C55E1CE0005A03E /* 主播节目Cell */ = {
+			isa = PBXGroup;
+			children = (
+				97BDE4DC1C55E1C00005A03E /* ReaderListItemTableViewCell.h */,
+				97BDE4DD1C55E1C00005A03E /* ReaderListItemTableViewCell.m */,
+				97BDE4DE1C55E1C00005A03E /* ReaderListItemTableViewCell.xib */,
+			);
+			name = "主播节目Cell";
+			sourceTree = "<group>";
+		};
+		97BDE4EB1C5622F00005A03E /* 更多电台 */ = {
+			isa = PBXGroup;
+			children = (
+				97BDE4EC1C5623170005A03E /* MoreDianTaiModel.h */,
+				97BDE4ED1C5623170005A03E /* MoreDianTaiModel.m */,
+			);
+			name = "更多电台";
+			sourceTree = "<group>";
+		};
 		97D5C78B1C27DE1300AAC56B /* 电台内容 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1455,6 +1525,7 @@
 				977F804C1C20F96E002A7EC1 /* littlePaused1@2x.png in Resources */,
 				977F802A1C20F96E002A7EC1 /* emotion1.png in Resources */,
 				975D6D331C17D2420042533C /* Assets.xcassets in Resources */,
+				97BDE4E01C55E1C00005A03E /* ReaderListItemTableViewCell.xib in Resources */,
 				97AECC981C2B875300DB708E /* line.png in Resources */,
 				977F80501C20F96E002A7EC1 /* littlePaused5@2x.png in Resources */,
 				977F80381C20F96E002A7EC1 /* scene6.png in Resources */,
@@ -1478,6 +1549,7 @@
 				977F803D1C20F96E002A7EC1 /* faxianSelectedXiong1@2x.png in Resources */,
 				977F80321C20F96E002A7EC1 /* emotion9.png in Resources */,
 				97AECCB01C2B966E00DB708E /* xuLine.png in Resources */,
+				97BDE4CF1C55BBB90005A03E /* ReaderHeadView.xib in Resources */,
 				977F80531C20F96E002A7EC1 /* littlePlaying2@2x.png in Resources */,
 				977F80561C20F96E002A7EC1 /* littlePlaying5@2x.png in Resources */,
 				977F80AC1C20FE5F002A7EC1 /* HomeViewController.xib in Resources */,
@@ -1570,18 +1642,22 @@
 				977F80921C20FBA9002A7EC1 /* MMProgressHUDOverlayView.m in Sources */,
 				977F81821C22A335002A7EC1 /* HomeSectionHeaderView.m in Sources */,
 				977F809C1C20FBA9002A7EC1 /* WSProgressHUD.m in Sources */,
+				97BDE4D81C55CAA50005A03E /* ReaderInfoModel.m in Sources */,
 				977F814D1C224354002A7EC1 /* HomeCategoryCollectionViewCell.m in Sources */,
 				975D6D2B1C17D2420042533C /* AppDelegate.m in Sources */,
 				976CAB3A1C2A80C300F57FD9 /* FMDiscoverHeadModel.m in Sources */,
 				977F80931C20FBA9002A7EC1 /* MMProgressHUDViewController.m in Sources */,
 				977F81791C226E5A002A7EC1 /* MASViewAttribute.m in Sources */,
+				97BDE4DB1C55CB8E0005A03E /* ReaderContentListModel.m in Sources */,
 				97D5C7931C27EA2900AAC56B /* FMContentNetEngine.m in Sources */,
 				977F817D1C226E5A002A7EC1 /* View+MASAdditions.m in Sources */,
 				975D6D281C17D2420042533C /* main.m in Sources */,
 				977F808F1C20FBA9002A7EC1 /* MMProgressHUD+Animations.m in Sources */,
+				97BDE4EA1C561F040005A03E /* MoreSpeakerViewController.m in Sources */,
 				97A4D6441C2BB95E00A9EDAF /* TimerStepContainerView.m in Sources */,
 				977F80971C20FBA9002A7EC1 /* FBShimmeringLayer.m in Sources */,
 				976CAB3D1C2A860600F57FD9 /* FMDiscoverMoodTroubleModel.m in Sources */,
+				97BDE4DF1C55E1C00005A03E /* ReaderListItemTableViewCell.m in Sources */,
 				977F80BF1C20FF20002A7EC1 /* TabbarItem.m in Sources */,
 				977F80F91C214977002A7EC1 /* UserModel.m in Sources */,
 				977F80951C20FBA9002A7EC1 /* MMRadialProgressView.m in Sources */,
@@ -1609,10 +1685,12 @@
 				977F80A71C20FE2B002A7EC1 /* FMBaseViewController.m in Sources */,
 				977F80911C20FBA9002A7EC1 /* MMProgressHUD.m in Sources */,
 				97AECC8E1C2AE47500DB708E /* FMCommunityNetEngine.m in Sources */,
+				97BDE4CD1C55BBA70005A03E /* ReaderHeadView.m in Sources */,
 				977F7FE61C20F91F002A7EC1 /* UIView+JHExtension.m in Sources */,
 				977F80E61C213E25002A7EC1 /* NSString+URLEncode.m in Sources */,
 				977F80E01C213C5D002A7EC1 /* HomeNetEngine.m in Sources */,
 				977F81371C21A3C4002A7EC1 /* HomeTableViewSecondCell.m in Sources */,
+				97BDE4D21C55C7330005A03E /* FMReaderInfoEngine.m in Sources */,
 				977F81461C21A46C002A7EC1 /* HomeTableViewSixCell.m in Sources */,
 				977F7FE41C20F91F002A7EC1 /* UIScrollView+JHExtension.m in Sources */,
 				97A4D6471C2BB97600A9EDAF /* TimerStepView.m in Sources */,
@@ -1623,6 +1701,7 @@
 				977F809A1C20FBA9002A7EC1 /* WSIndefiniteAnimationView.m in Sources */,
 				972A25071C24F6C500177B7A /* ItemListDataEngine.m in Sources */,
 				977F80B31C20FEA5002A7EC1 /* DiscoverViewController.m in Sources */,
+				97BDE4EE1C5623170005A03E /* MoreDianTaiModel.m in Sources */,
 				97D5C7A91C2801BD00AAC56B /* UserGiftTableViewCell.m in Sources */,
 				97AECC9E1C2B908E00DB708E /* SettingTableViewCell.m in Sources */,
 				97AECCB41C2B99E100DB708E /* SettingTimerTableViewCell.m in Sources */,
@@ -1651,6 +1730,7 @@
 				977F7FDE1C20F91F002A7EC1 /* JHRefreshCommonAniView.m in Sources */,
 				977F81781C226E5A002A7EC1 /* MASLayoutConstraint.m in Sources */,
 				977F80F61C21495D002A7EC1 /* DianTaiModel.m in Sources */,
+				97BDE4D51C55C7480005A03E /* FMReaderContentListEngine.m in Sources */,
 				977F80901C20FBA9002A7EC1 /* MMProgressHUD+Class.m in Sources */,
 				976CAB371C2A7E1400F57FD9 /* FMDiscoverNetEngine.m in Sources */,
 				977F7FE21C20F91F002A7EC1 /* JHRefreshFooterView.m in Sources */,
